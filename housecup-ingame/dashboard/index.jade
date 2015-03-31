@@ -1,0 +1,81 @@
+script(src='/dashboard/housecup-ingame/components/bootstrap-select/dist/js/bootstrap-select.min.js')
+script(src='/dashboard/housecup-ingame/components/lodash/lodash.min.js')
+link(href='/dashboard/housecup-ingame/components/bootstrap-select/dist/css/bootstrap-select.min.css', rel='stylesheet')
+
+div(style="display: flex;")
+    .column
+
+        .ncg-label Select players
+        .form-inline
+            .ncg-input-group
+                    select#selectPlayer1.players.form-control(data-player=1)
+                    select#selectPlayer2.players.form-control(data-player=2)
+        .ncg-label decks
+        .form-inline
+            .ncg-input-group
+                select#selectClass1.selectClass.form-control(data-player=1)
+                select#selectClass2.selectClass.form-control(data-player=2)
+
+        .ncg-label WINS
+        .form-inline
+            .ncg-input-group
+                select#wins1.form-control(data-player=1)
+                    option(value="0") 0
+                    option(value="1") 1
+                    option(value="2") 2
+                    option(value="3") 3
+                    option(value="4") 4
+                    option(value="5") 5
+                select#wins2.form-control(data-player=2)
+                    option(value="0") 0
+                    option(value="1") 1
+                    option(value="2") 2
+                    option(value="3") 3
+                    option(value="4") 4
+                    option(value="5") 5
+
+hr
+.ncg-btn-group(style="margin-top: 8px;")
+    .btn-group.btn-group-justified
+        .btn-group
+            button#housecup-ingame-deck1.btn.btn-xs.btn-default(type='button' aria-label="Left Align")
+                span.glyphicon.glyphicon-user(aria-hidden="true")  DECK1
+        .btn-group
+            button#housecup-ingame-deck2.btn.btn-xs.btn-default(type='button' aria-label="Left Align")
+                span.glyphicon.glyphicon-user(aria-hidden="true")  DECK2
+
+hr
+button#housecup-ingame-off.btn.btn-xs.btn-block.btn-danger(type='button' aria-label="Left Align")
+    span.glyphicon.glyphicon-remove(aria-hidden="true")  OFF
+
+.ncg-btn-group(style="margin-top: 8px;")
+    .btn-group.btn-group-justified
+        .btn-group
+            button#housecup-ingame-pp1.btn.btn-xs.btn-default(type='button' aria-label="Left Align")
+                span.glyphicon.glyphicon-user(aria-hidden="true")  PP1
+        .btn-group
+            button#housecup-ingame-pp2.btn.btn-xs.btn-default(type='button' aria-label="Left Align")
+                span.glyphicon.glyphicon-user(aria-hidden="true")  PP2
+        .btn-group
+            button#housecup-ingame-ppw.btn.btn-xs.btn-default(type='button' aria-label="Left Align")
+                span.glyphicon.glyphicon-user(aria-hidden="true")  PPW
+        .btn-group
+            button#housecup-ingame-mulligan.btn.btn-xs.btn-warning(type='button' aria-label="Left Align")
+                span.glyphicon.glyphicon-list-alt(aria-hidden="true")  MULLIGAN
+hr
+.ncg-btn-group(style="margin-top: 8px;")
+    .btn-group.btn-group-justified
+        .btn-group
+            button#housecup-ingame-ingame.btn.btn-xs.btn-success(type='button' aria-label="Left Align")
+                span.glyphicon.glyphicon-play(aria-hidden="true")  INGAME
+        .btn-group
+            button#housecup-ingame-decklist.btn.btn-xs.btn-warning(type='button' aria-label="Right Align")
+                span.glyphicon.glyphicon-arrow-right(aria-hidden="true")  DECKLIST
+.ncg-btn-group(style="margin-top: 8px;")
+    .btn-group.btn-group-justified
+        .btn-group
+            button#housecup-ingame-active1.btn.btn-xs.btn-default(type='button' aria-label="Left Align")
+                span.glyphicon.glyphicon-user(aria-hidden="true")  1
+        .btn-group
+            button#housecup-ingame-active2.btn.btn-xs.btn-default(type='button' aria-label="Left Align")
+                span.glyphicon.glyphicon-list-alt(aria-hidden="true")  2

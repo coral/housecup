@@ -1,0 +1,16 @@
+[
+  {
+    "name": "housecup-ingame",
+    "title": "INGAME",
+    "width": 4,
+    "file": "index.jade",
+    "faIcon": "fa-clock-o"
+  },
+    {
+    "name": "housecup-cards",
+    "title": "card debug",
+    "width": 4,
+    "file": "cards.jade",
+    "faIcon": "fa-clock-o"
+  }
+]

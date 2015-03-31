@@ -1,0 +1,256 @@
+body {
+	width: 1280px;
+	height: 720px;
+overflow: hidden;
+background-color: rgba(0,0,0,0);
+}
+
+.container {
+
+
+	min-width: 100%;
+	min-height: 100%;
+background-color: rgba(0,0,0,0);
+
+
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:74% 0%}
+    50%{background-position:27% 100%}
+    100%{background-position:74% 0%}
+}
+
+@keyframes AnimationName {
+    0%{background-position:74% 0%}
+    50%{background-position:27% 100%}
+    100%{background-position:74% 0%}
+}
+
+#bottombar
+{
+	width: 300px;
+	height: 65px;
+	top: 630px;
+	left: 113px;
+    transition: width 2s ease-in-out;
+}
+
+#nameplate-left
+{
+    width: 240px;
+    height: 40px;
+    top: 560px;
+    left: -250px;
+    transition: left 1s ease-in-out;
+}
+
+#nameplate-right
+{
+    width: 240px;
+    height: 40px;
+    top: 560px;
+    left: 1285px;
+    transition: left 1s ease-in-out;
+}
+
+.sponsor
+{
+    background-image: url(../img/sponsor-plate.png);
+    width: 254px;
+    height: 79px;
+    left: 1280px;
+    top: 623px;
+    transition: left 1s ease-in-out;
+}
+
+.border_t {
+    background:url(../img/border/border_t.png) repeat-x;
+    position:absolute;
+    top:-7px; left:0;
+    width:100%;
+    height:9px;
+}
+.border_b {
+    background:url(../img/border/border_b.png) repeat-x;
+    position:absolute;
+    bottom:-7px; left:0;
+    width:100%;
+    height:8px;
+}
+.border_l {
+    background:url(../img/border/border_l.png) repeat-y;
+    position:absolute;
+    top:0; left:-7px;
+    width:9px;
+    height:100%;
+}
+.border_r {
+    background:url(../img/border/border_r.png) repeat-y;
+    position:absolute;
+    top:0; right:-7px;
+    width:9px;
+    height:100%;
+}
+.border_br {
+    background:url(../img/border/border_br.png);
+    position:absolute;
+    bottom:-7px; right:-7px;
+    width:17px;
+    height:16px;
+}
+.border_bl {
+    background:url(../img/border/border_bl.png);
+    position:absolute;
+    bottom:-7px; left:-7px;
+    width:17px;
+    height:17px;
+}
+.border_tr {
+    background:url(../img/border/border_tr.png);
+    position:absolute;
+    top:-7px; right:-7px;
+    width:18px;
+    height:18px;
+}
+.border_tl {
+    background:url(../img/border/border_tl.png);
+    position:absolute;
+    top:-7px; left:-7px;
+    width:18px;
+    height:19px;
+}
+
+.plate-container{
+	position: absolute;
+}
+
+.plate
+{
+	width: 100%;
+	height: 100%;
+    overflow: hidden;
+
+
+
+	background: linear-gradient(133deg, #4d7acb, #17294b, #6561ff);
+	background-size: 800% 800%;
+
+	-webkit-animation: AnimationName 30s ease infinite;
+	-moz-animation: AnimationName 30s ease infinite;
+	animation: AnimationName 30s ease infinite;
+
+
+
+}
+
+.name {
+    padding-top: 3px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.plate-header {
+	color: rgba(255,255,255,1);
+	font-size: 24px;
+    width: 250px;
+    height: 35px;
+    overflow: hidden;
+    font-family: GeoSuperBold;
+}
+
+.plate-name {
+    color: rgba(255,255,255,0.9);
+    font-size: 25px;
+    font-family: GeoSuperBold;
+}
+
+.plate-body {
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    font-family: GeoUltralite;
+}
+
+.plate-tweet-header {
+    color: rgba(255,255,255,1);
+    font-size: 24px;
+    width: 250px;
+    height: 35px;
+    overflow: hidden;
+    font-family: GeoSuperBold;
+}
+
+.plate-tweet-body {
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    font-family: GeoUltralite;
+}
+
+
+.plate-text {
+    padding-left: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+}
+
+.plate-padding {
+    padding-top: 1px;
+
+}
+
+.plate-image {
+    width: 191px;
+    height: 128px;
+    margin-top: -15px;
+    margin-left: -25px;
+    /*
+    background-image: url("../img/hs-mini.png");
+    */
+    float: left;
+    position: absolute;
+}
+
+.plate-sponsor-image {
+    width: 254px;
+    height: 79px;
+    opacity: 0;
+    background-image: url("../img/roller/blizzard.png");
+}
+
+#particles {
+    z-index: 1000;
+}
+
+.bottom {
+    left: -450px;
+    position: absolute;
+    width: 800px;
+    transition: left 1s ease-in-out;
+}
+
+body.bottom-on div.bottom{
+    left: 0px;
+}
+
+
+body.twitter-on div#bottombar{
+    width: 870px;
+}
+
+body.bottom-on div.sponsor{
+    left: 1009px;
+}
+
+body.left-on div#nameplate-left{
+    left: 34px;
+}
+
+body.right-on div#nameplate-right{
+    left: 1015px;
+}

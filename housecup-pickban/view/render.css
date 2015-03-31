@@ -1,0 +1,123 @@
+body {
+    width: 1280px;
+    height: 720px;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+}
+
+.cards {
+    display: block;
+    position: relative;
+    left: 275px;
+    top: 30px;
+}
+
+.rekt {
+    background-image: url(img/hero/banned.png);
+    width: 77px;
+    height: 110px;
+    background-size: 77px 110px;
+}
+.notrekt {
+    background-image: url(img/hero/notrekt.png);
+    width: 77px;
+    height: 110px;
+    background-size: 77px 110px;
+}
+
+.p1 {
+    top: 125px;
+    left: 90px;
+}
+
+.p2 {
+    top: 215px;
+    left: 90px;
+}
+
+
+.nick {
+    font-size: 23px;
+    font-family: Geo;
+    color: #FFFFFF;
+    position: relative;
+}
+
+@font-face {
+    font-family: Geo;
+    src: url(Geogtq-Sb.otf);
+}
+
+.container {
+    position: absolute;
+    overflow: hidden;
+    width: 1080px;
+    height: 324px;
+    top: 800px;
+    left: 100px;
+    background-image: url(img/bg2.png);
+    background-color: rgba(0,0,0,0.0);
+    transition: top 1s ease-in-out;
+}
+
+body.active div.container {
+    top: 396px;
+    transition: top 1s ease-in-out;
+}
+
+.deckimage {
+    width: 77px;
+    height: 110px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-size: 77px 110px;
+    display: block;
+    float: left;
+}
+
+.deckrender {
+    display: block;
+     clear: left;
+}
+
+
+.ban {
+    opacity: 0.3;
+}
+
+.druid {
+    background-image: url(img/hero/Druid.png);
+}
+
+.hunter {
+    background-image: url(img/hero/Hunter.png);
+}
+
+.mage {
+    background-image: url(img/hero/Mage.png);
+}
+
+.paladin {
+    background-image: url(img/hero/Paladin.png);
+}
+
+.priest {
+    background-image: url(img/hero/Priest.png);
+}
+
+.rogue {
+    background-image: url(img/hero/Rogue.png);
+}
+
+.shaman {
+    background-image: url(img/hero/Shaman.png);
+}
+
+.warlock {
+    background-image: url(img/hero/Warlock.png);
+}
+
+.warrior {
+    background-image: url(img/hero/Warrior.png);
+}
+

@@ -1,0 +1,26 @@
+.clock-container {
+
+    position: absolute;
+}
+
+#clock {
+    position: absolute;
+    top: 609px;
+    left: 15px;
+    width: 110px;
+    height: 124px;
+    background-image: url('../img/clock/clock.png');
+    padding-left: 26px;
+    padding-top: 16px;
+}
+
+
+#clock div {
+    position: absolute;
+}
+
+.clock-render {
+    position: absolute;
+    top: 620px;
+    left: 25px;
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "name": "housecup-pickban",
+    "title": "PICKBAN",
+    "width": 4,
+    "file": "pickban.jade",
+    "faIcon": "fa-clock-o"
+  }
+]

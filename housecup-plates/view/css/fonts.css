@@ -1,0 +1,30 @@
+@font-face {
+    font-family: GeoBold;
+    src: url("../fonts/geo/Geogtq-Bd.otf");
+}
+@font-face {
+    font-family: GeoLight;
+    src: url("../fonts/geo/Geogtq-Lg.otf");
+}
+@font-face {
+    font-family: GeoMedium;
+    src: url("../fonts/geo/Geogtq-Md.otf");
+}
+@font-face {
+    font-family: GeoRight;
+    src: url("../fonts/geo/Geogtq-Rg.otf");
+}
+@font-face {
+    font-family: GeoSuperBold;
+    src: url("../fonts/geo/Geogtq-Sb.otf");
+}
+@font-face {
+    font-family: GeoThin;
+    src: url("../fonts/geo/Geogtq-Th.otf");
+}
+@font-face {
+    font-family: GeoUltralite;
+    src: url("../fonts/geo/Geogtq-Ul.otf");
+}
+
+

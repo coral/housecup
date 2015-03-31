@@ -1,0 +1,9 @@
+[
+  {
+    "name": "plates",
+    "title": "Plates",
+    "width": 3,
+    "file": "plates.jade",
+    "faIcon": "fa-clock-o"
+  }
+]

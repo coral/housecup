@@ -1,0 +1,20 @@
+{
+  "name": "housecup-plates",
+  "version": "0.5.2",
+  "homepage": "https://github.com/nodecg/nodecg",
+  "authors": [
+    "coral <jonas@jonasbengtson.se>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "textfit": "~2.1.1"
+  }
+}

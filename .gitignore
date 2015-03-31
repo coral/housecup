@@ -1,0 +1,32 @@
+# Node / Bower
+bower_components/
+node_modules/
+
+# Local bundles
+/bundles/**
+
+# Datastores
+/db/**
+
+# Logs
+/logs/**
+
+# Configs
+/cfg
+
+# OS specific
+.DS_Store
+
+# JetBrains IDEs (IntelliJ/WebStorm)
+.idea/
+*.iml
+
+# Code coverage results
+/coverage
+
+# Test folders
+/bundles2
+/bundles_off
+
+# Don't ignore .empty_directory files
+!.empty_directory

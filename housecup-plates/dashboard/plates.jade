@@ -1,0 +1,44 @@
+.ncg-label NAMEPLATES
+.nameplates(style="display: flex;")
+    .column
+        .input-group
+            input#leftnick.plate-form.form-control.left(type='text', placeholder='Nick', data-id="leftNick")
+            input#leftname.plate-form.form-control.left(type='text', placeholder='Name', data-id="leftName")
+    .column
+        .input-group
+            input#rightnick.plate-form.form-control.right(type='text', placeholder='Nick', data-id="rightNick")
+            input#rightname.plate-form.form-control.right(type='text', placeholder='Name', data-id="rightName")
+
+.ncg-btn-group(style="margin-top: 8px;")
+    .btn-group.btn-group-justified
+        .btn-group
+            button#left.classToggle.btn.btn-xs.btn-default.left(type='button' data-class="left-on") LEFT
+        .btn-group
+            button#right.classToggle.btn.btn-xs.btn-default.right(type='button' data-class="right-on") RIGHT
+hr
+.ncg-label BOTTOMBAR
+    .column
+        .input-group
+            input#bottombar-head.plate-form.form-control.left(type='text', placeholder='HEADLINE', data-id="shortHead")
+            input#bottombar-body.plate-form.form-control.left(type='text', placeholder='BODY', data-id="shortBody")
+.ncg-label LONGERBAR
+    .column
+        .input-group
+            input#longerbar-head.plate-form.form-control.left(type='text', placeholder='HEADLINE', data-id="longerHead")
+            input#longerbar-body.plate-form.form-control.left(type='text', placeholder='BODY', data-id="longerBody")
+
+
+.ncg-btn-group(style="margin-top: 8px;")
+    .btn-group.btn-group-justified
+        .btn-group
+            button#extv-casters_in.classToggle.btn.btn-xs.btn-default.left(type='button' data-class="off") OFF
+        .btn-group
+            button#extv-casters_in.classToggle.btn.btn-xs.btn-default.left(type='button' data-class="bottom-on") SHORT
+        .btn-group
+            button#extv-casters_pulse7.classToggle.btn.btn-xs.btn-default.right(type='button' data-class="twitter-on") LONG
+
+.ncg-btn-group(style="margin-top: 8px;")
+    .btn-group.btn-group-justified
+        .btn-group
+            button#save.btn.btn-xs.btn-success(type='button' aria-label="Left Align")
+                span.glyphicon.glyphicon-user(aria-hidden="true")  SAVE

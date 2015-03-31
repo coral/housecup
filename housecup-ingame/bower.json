@@ -1,0 +1,19 @@
+{
+  "name": "housecup-ingame",
+  "main": "index.js",
+  "version": "0.5.2",
+  "homepage": "https://github.com/nodecg/nodecg",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-select": "~1.6.4",
+    "lodash": "~3.6.0"
+  }
+}

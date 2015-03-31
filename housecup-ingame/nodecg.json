@@ -1,0 +1,19 @@
+{
+    "name": "housecup-ingame",
+    "version": "0.0.1",
+    "nodecgDependency": ">0.4.0",
+    "homepage": "http://www.jonasbengtson.se",
+    "authors": [
+        "coral <jonas@jonasbengtson.se>",
+        "loveolsson <love.olsson@gmail.com"
+    ],
+    "description": "ingame",
+    "resolutions": [
+        "720p"
+    ],
+    "license": "NOESL",
+    "extension": {
+        "express": false,
+        "path": "index.js"
+    }
+}

@@ -1,0 +1,76 @@
+body {
+    width: 1280px;
+    height: 720px;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+}
+
+.cards {
+    display: block;
+    position: relative;
+    left: 35px;
+    top: 120px;
+}
+.container {
+    position: absolute;
+    overflow: hidden;
+    width: 1280px;
+    height: 720px;
+}
+
+.deckimage {
+    width: 130px;
+    height: 185px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-size: 138px 186px;
+    display: block;
+    float: left;
+}
+
+.deckrender {
+    display: block;
+     clear: left;
+}
+
+
+.ban {
+    opacity: 0.3;
+}
+
+.druid {
+    background-image: url(img/hero/Druid.png);
+}
+
+.hunter {
+    background-image: url(img/hero/Hunter.png);
+}
+
+.mage {
+    background-image: url(img/hero/Mage.png);
+}
+
+.paladin {
+    background-image: url(img/hero/Paladin.png);
+}
+
+.priest {
+    background-image: url(img/hero/Priest.png);
+}
+
+.rogue {
+    background-image: url(img/hero/Rogue.png);
+}
+
+.shaman {
+    background-image: url(img/hero/Shaman.png);
+}
+
+.warlock {
+    background-image: url(img/hero/Warlock.png);
+}
+
+.warrior {
+    background-image: url(img/hero/Warrior.png);
+}
+

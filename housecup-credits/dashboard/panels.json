@@ -1,0 +1,9 @@
+[
+  {
+    "name": "housecup-credits",
+    "title": "Credits",
+    "width": 2,
+    "file": "credits.jade",
+    "faIcon": "fa-clock-o"
+  }
+]

@@ -1,0 +1,447 @@
+@font-face {
+    font-family: Geogtq-Bd;
+    src: url(font/Geogtq-Bd.otf);
+}
+
+@font-face {
+    font-family: Geogtq-Md;
+    src: url(font/Geogtq-Md.otf);
+}
+
+@font-face {
+    font-family: Geogtq-Rg;
+    src: url(font/Geogtq-Rg.otf);
+}
+
+@font-face {
+    font-family: Geogtq-Lg;
+    src: url(font/Geogtq-Lg.otf);
+}
+
+
+
+
+
+body {
+
+  background-image: url(img/bg_4.png);
+  background-repeat: no-repeat;
+  font-family: "Geogtq-Lg";
+  overflow: hidden;
+
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 720px;
+  visibility: hidden;
+}
+
+video#particles {
+  visibility: visible;
+  opacity: 0.5;
+}
+
+canvas.videoCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+#trackPoint {
+  position: absolute;
+  top: 100px;
+  left: 1280px;
+}
+
+#leftBannerText {
+  position: absolute;
+  top: 200px;
+  left: 1280px;
+}
+
+#rightBannerText {
+  position: absolute;
+  top: 200px;
+  left: 1580px;
+}
+
+div.three {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 720px;
+  display: block;
+
+}
+
+div#controllers {
+  position: absolute;
+  top: 740px;
+  left: 0;
+}
+
+.playerlogo {
+  opacity: 0;
+}
+
+
+
+img#logo_big {
+  position: absolute;
+  width: 700px;
+  left: 290px;
+  top: 150px;
+  height: auto;
+  transition: top 1s, left 1s, width 1s, opacity 1s 1s;
+  opacity: 0;
+}
+
+
+body.ingame img#logo_big {
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 2000ms;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes flash {
+  0% { opacity: 0; }
+  30% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+img#logo {
+  position: absolute;
+  height: auto;
+  transition: top 1s ease-in-out;
+  width: 150px;
+  opacity: 1;
+  top: 800px;
+  left: 1110px;
+
+
+}
+
+
+
+body.ingame img#logo {
+  transition: top 1s ease-in-out 2s;
+
+
+  width: 150px;
+  opacity: 1;
+  top: 590px;
+  left: 1110px;
+}
+
+#logo2 {
+  position: absolute;
+  height: 118px;
+  transition: left 1s ease-in-out;
+  width: 215px;
+  top: 580px;
+  left: -200px;
+
+
+}
+
+.plate-sponsor-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 215px;
+  height: 118px;
+
+  background-image: url(img/sponsors/blizzard.png);
+
+}
+.plate-sponsor-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 215px;
+  height: 118px;
+
+  background-image: url(img/sponsors/bg.png);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+
+
+}
+
+body.ingame #logo2 {
+  left: -20px;
+}
+
+body.decks #logo2 {
+  left: 175px;
+}
+
+body.decks .plate-sponsor-background {
+  opacity: 1;
+}
+
+div#pp1 {
+  position: absolute;
+  width: 400px;
+  height: 429px;
+  background-image: url(img/presentation-plate.png);
+  left: 790px;
+  top: -500px;
+  color: white;
+  transform-origin:left top;
+  -webkit-animation-name: gung;
+  -webkit-animation-duration: 15000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  transition: opacity 1s, top ease-in-out 1s;
+
+}
+
+div#pp2 {
+  position: absolute;
+  width: 400px;
+  height: 429px;
+  background-image: url(img/presentation-plate.png);
+  left: 110px;
+  top: -500px;
+  color: white;
+  transform-origin:left top;
+  -webkit-animation-name: gung;
+  -webkit-animation-duration: 15000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+
+  transition: opacity 1s, top ease-in-out 1s;
+
+}
+
+.pp span {
+  position: absolute;
+  left: 30px;
+  color: #57270c;
+  font-size: 20pt;
+
+}
+
+.pp span.prevtournamenthead {
+  font-family: "Geogtq-Bd";
+
+  top: 270px;
+
+}
+
+.pp span.prevtournamentname {
+  top: 300px;
+  width: 330px;
+
+  font-family: "Geogtq-Md";
+
+
+}
+
+.pp span.prevtournamentplace {
+  top: 370px;
+  width: 350px;
+  font-family: "Geogtq-Bd";
+
+
+}
+
+.pp span.prevtournamentprice {
+  top: 370px;
+  left: 170px;
+  font-family: "Geogtq-Md";
+
+
+}
+
+@-webkit-keyframes gung {
+  0% { transform: rotateX(-10deg); }
+  50% { transform: rotateX(10deg); }
+  100% { transform: rotateX(-10deg); }
+}
+
+body.pp1 div#pp1 {
+
+  transition: opacity 1s 1s, top 2s ease-in-out 1s;
+  top: -170px;
+}
+
+body.pp2 div#pp2 {
+  transition: opacity 1s 1s, top 2s ease-in-out 1s;
+  top: -170px;
+
+}
+
+
+div#mulligan1 {
+  position: absolute;
+  width: 250px;
+  height: 180px;
+  background-image: url(img/plate-logo.png);
+  background-repeat: no-repeat;
+  left: -300px;
+  top: 500px;
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 1s, left 1s;
+
+}
+
+div#mulligan2 {
+  position: absolute;
+  width: 250px;
+  height: 180px;
+  background-image: url(img/plate-sponsors.png);
+  background-repeat: no-repeat;
+
+  left: 1280px;
+  top: 20px;
+  color: white;
+  opacity: 0;
+  transition: opacity 1s, left 1s;
+
+}
+
+body.mulligan div#mulligan1 {
+  opacity: 1;
+  left: 15px;
+  transition: opacity 1s 1s, left 1s 1s;
+
+}
+
+body.mulligan div#mulligan2 {
+  opacity: 1;
+  left: 1030px;
+  transition: opacity 1s 1s, left 1s 1s;
+
+}
+
+.decklist {
+  position: absolute;
+  top: 720px;
+  left: 0px;
+  padding: 0;
+  margin: 0;
+
+
+  transition: left 1s ease-in-out;
+}
+
+#decklist2 {
+  left: 1280px;
+}
+
+.cardelement {
+  font-size: 11pt;
+  position: absolute;
+  width: 120px;
+  height: 19px;
+  transition: bottom 0.5s, left 0.5s ease-in-out, right 0.5s ease-in-out;
+  color: white;
+  text-shadow: 0px 0px 2px #000000;
+  padding: 0;
+  background-position: 0px 0px, -190px -190px;
+  background-size: 100%, 300%;
+  padding-top: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  -webkit-text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+#decklist1 .cardelement {
+  left: -180px;
+
+
+}
+
+
+#decklist2 .cardelement {
+
+  right: -180px;
+
+}
+
+.cardelement .countspan {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  color: white;
+  text-shadow: 0px 0px 2px #000000;
+  font-style: bold;
+  opacity: 0;
+  transition: opacity 1s;
+  padding-top: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+
+
+}
+
+.countspan.show {
+  opacity: 1;
+  background: rgba(0,0,0,0.5);
+}
+
+.cardelement .manaspan {
+  position: absolute;
+  left: 2px;
+  top: 0;
+  width: 22px;
+  background-image: URL(img/stone.png);
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 2px #000000;
+  font-weight: bold;
+  padding-top: 2px;
+  height: 20px;
+  overflow: hidden;
+
+  font-family: "Geogtq-Md";
+
+
+}
+
+
+
+
+
+
+#decklist2 .cardelement .countspan {
+
+  left: 0;
+  right: auto;
+
+}
+
+#decklist2 .countspan.show {
+  opacity: 1;
+  background: rgba(0,0,0,0.3);
+}
+
+#decklist2 .cardelement .manaspan {
+  left: auto;
+  right: 2px;
+
+}
+
+
+body.decks #decklist1 .cardelement.show {
+  left: 0px;
+}
+
+body.decks #decklist2 .cardelement.show {
+  right: 0px;
+}
