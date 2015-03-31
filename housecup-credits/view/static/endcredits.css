@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Geol;
+    src: url("Geogtq-Th.otf");
+}
+@font-face {
+    font-family: Geob;
+    src: url("Geogtq-Sb.otf");
+}
+@font-face {
+    font-family: Geobold;
+    src: url("Geogtq-Rg.otf");
+}
+
+#titles {
+    overflow: hidden;
+    background-image: url("logos/bg_3.jpg");
+    font-family: Geol;
+    display: none;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+
+}
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.klaus
+{
+ -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+img {
+
+      margin-left: auto;
+    margin-right: auto;
+}
+#titles div#the-end {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 12px #ffffff;
+    width: 100%;
+    text-align: center;
+}
+#credits {
+    color: #ffffff;
+      margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 800px;
+    -webkit-backface-visibility: hidden;
+}
+#credits h1 {
+    color: #888888;
+    width: 100%;
+    height: 100%;
+    margin: 60px 0 0 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Geob;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+      margin-left: auto;
+    margin-right: auto;
+}
+#credits dl {
+    margin: 0px auto;
+}
+#credits dt {
+    float: left;
+    width: 410px;
+    margin: 0;
+    padding: 13px 0 0 0;
+    text-align: right;
+    font-family: Geobold;
+    font-size: 20px;
+    clear:left;
+}
+#credits dd {
+    width: 100%;
+    margin: 0 0 0 430px;
+    padding: 13px 0 0 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+#credits p {
+    width: 508px;
+    margin: 10px 0px 10px 60px;
+    text-align: center;
+    font-size: 20px;
+
+      margin-left: auto;
+    margin-right: auto;
+}
+#credits .fineprint {
+    color: #888888;
+    width: 100%;
+    margin: 80px 0 0 50px;
+    text-align: center;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.clearfix: after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+/* close commented backslash hack */

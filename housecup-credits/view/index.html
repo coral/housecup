@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseCup Credits</title>
+    <link rel="stylesheet" href="static/endcredits.css">
+    <link href="view.css" rel="stylesheet">
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/jquery.transit/jquery.transit.js"></script>
+    <script src="static/endcredits.js"></script>
+
+</head>
+
+<body>
+
+    <div id="titles">
+        <div id="credits">
+            <p><img src="static/housecup.png"></p>
+            <p><img src="static/logos/hearthstone.png"></p>
+            <br />
+            <h1>Players</h1>
+            <dl class="players">
+                <script>
+
+                $.getJSON( "static/players.json", function( data ){
+                  var items = [];
+                  $.each( data, function( key, val ) {
+                    items.push( "<dt>"+val.nick+"</dt><dd>"+val.name+"</dd>");
+                  });
+                $(".players").append(items);
+
+                });
+                </script>
+            </dl>
+
+            <h1>TALENT</h1>
+            <dl>
+                <dt>Host</dt>
+                <dd>Rachel "Seltzer" Quirico</dd>
+                <dt>Co-Host</dt>
+                <dd>Dan "Frodan" Chou<dd>
+            </dl>
+
+            <h1>TEAM HOUSECUP</h1>
+            <dl>
+                <dt>Head of content</dt>
+                <dd>Simon Sundén</dd>
+                <dt>Community and Relations Manager</dt>
+                <dd>Anna Nordlander</dd>
+                <dt>Project Manager</dt>
+                <dd>Jonas "coral" Bengtson</dd>
+                <dt>Producer</dt>
+                <dd>Niklas Kronqvist</dd>
+                <dt>Event Producer</dt>
+                <dd>Gustav "tuktuk" Karlsson</dd>
+                <dt>Technician</dt>
+                <dd>Rickard "SKRFF" Melin</dd>
+                <dt>Technician</dt>
+                <dd>Johan "Weppas" Westborg</dd>
+                <dt>Sound Engineer</dt>
+                <dd>Thomas "toiva" Savolainen</dd>
+                <dt>Graphics & Technical Setup</dt>
+                <dd>Love Olsson</dd>
+                <dt>Graphics & Bar</dt>
+                <dd>Ulf Nordlund</dd>
+                <dt>Construction & Didgerido Expert</dt>
+                <dd>Love Karlsson</dd>
+                <dt>VOD/Highlights</dt>
+                <dd>Patrik Olausson</dd>
+                <dt>Klaus Wunderlich Expert</dt>
+                <dd>Alexander Wågberg</dd>
+                <dt>Admin</dt>
+                <dd>Robert "Nukes" Larsson</dd>
+                <dt>Product manager Viagame</dt>
+                <dd>Matias Hosio</dd>
+                <dt>Web Editor</dt>
+                <dd>Mathias Nilson</dd>
+                <dt>Gaffer & Lava lamp consultant</dt>
+                <dd>Sara Sivesson</dd>
+                <dt>Production Assistant</dt>
+                <dd>Jonathan "RegnStyrka" Larsson</dd>
+                <dt>Construction</dt>
+                <dd>Tobias "bandit" Lindroth</dd>
+                <dt>Construction</dt>
+                <dd>Anders "Wike" Edström</dd>
+                <dt>BOSS-PRAO</dt>
+                <dd>Max Eklund</dd>
+                <dt>DINOSAUR</dt>
+                <dd>Tyrannousaurus Rekt</dd><br />
+            </dl>
+            <p><img src="static/dino.jpg"></p>
+
+            <div class="clearfix"></div>
+            <h1>Special Thanks</h1>
+                <p>
+                    <b>Alex "Lange" Van Camp & Matthew "MattMcNam" McNamara from the NodeCG team.</b>
+                    <br/><br/>
+                    Marc Olbertz <br />
+                    ATEM-JANNE <br />
+                    Nocco <br />
+                    EasyDrape <br />
+                    HERR & FRU SPRÄNG <br />
+                    ARRI ARRILAINEN<br />
+                    THE FOX <br />
+                    PanGaia Studios<br />
+                    Fegge & Mattes <br />
+                    Scen- & Nöjesproduktion/ Royal Disco <br />
+                    Ballongverkstan
+
+                </p>
+
+            <div class="clearfix"></div>
+            <h1>Broadcast made possible by:</h1>
+                <p>
+                    <img src="static/logos/viagame.png">
+                     FOLLOW VIAGAME AT
+                </p>
+                    <dl>
+                        <dt>TWITTER</dt>
+                        <dd>@viagame - @viagameHS</dd>
+                        <dt>FB</dt>
+                        <dd>Viagame</dd>
+                        <dt>INSTAGRAM</dt>
+                        <dd>viagame</dd>
+                    </dl>
+                <p>
+                <br /><br />
+                <img src="static/logos/logo-blizzard.png">
+                Hearthstone®: Heroes of WarcraftTM is a copyrighted product of Blizzard Entertainment, Inc.  ©2015 Blizzard Entertainment, Inc. All rights reserved.</p>
+                <br />
+                <p>
+                <img src="static/logos/ccg.png">
+                <img src="static/logos/nodecg.png">
+                <img src="static/logos/nodejs.png">
+                <img src="static/logos/jquery.png">
+                <img src="static/logos/threejs.png">
+                <img src="static/logos/angular.png">
+
+            </p>
+
+            <div class="clearfix"></div>
+            <h1>Sponsors:</h1>
+            <p>
+                <img src="static/logos/xtrfy.png">
+                <img src="static/logos/strafe.png">
+            </p>
+
+            <div class="clearfix"></div>
+            <h1>Broadcasting Partners:</h1>
+            <p>
+                Youtube<br />
+                Twitch<br />
+                Hitbox<br />
+                The GD Studio
+            </p>
+
+
+
+            <h1>Powered by</h1>
+            <br/><br/>
+            <p>
+                <img class="klaus" src="static/klaus.png">
+            </p>
+            <h1>Klaus Wunderlich Will Return</h1>
+            <div class="clearfix"></div>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</body>
+
+</html>
