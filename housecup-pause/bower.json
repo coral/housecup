@@ -1,0 +1,22 @@
+{
+  "name": "housecup-pause",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Lange/extv-casters",
+  "authors": [
+    "coral <jonas@jonasbengtson.se>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "timepicker": "~1.6.4",
+    "eonasdan-bootstrap-datetimepicker": "~4.7.14"
+  }
+}

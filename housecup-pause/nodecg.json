@@ -1,0 +1,18 @@
+{
+    "name": "housecup-pause",
+    "version": "0.0.1",
+    "nodecgDependency": ">0.4.0",
+    "homepage": "http://www.jonasbengtson.se",
+    "authors": [
+        "coral <jonas@jonasbengtson.se>"
+    ],
+    "description": "Pause image",
+    "resolutions": [
+        "720p"
+    ],
+    "license": "NOESL",
+    "extension": {
+        "express": false,
+        "path": "index.js"
+    }
+}

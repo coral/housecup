@@ -1,0 +1,9 @@
+[
+  {
+    "name": "pause-panel",
+    "title": "Countdown Panel",
+    "width": 2,
+    "file": "panel.jade",
+    "faIcon": "fa-clock-o"
+  }
+]

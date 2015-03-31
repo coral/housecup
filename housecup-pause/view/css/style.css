@@ -1,0 +1,73 @@
+body
+{
+	width: 1280px;
+	height: 720px;
+    background-color: rgba(0,0,0,0);
+}
+
+@font-face {
+    font-family: Geogrotesque;
+    src: url("../fonts/Geog-MdIt.otf");
+}
+
+#canv {
+	border: none;
+  margin-left: 390px;
+  background-image: rgba(0,0,0,0);
+  margin-top:5%;
+  /*if bg color is changed, canvas (clock background) will have a circular shape */
+  border-radius:90%;
+}
+
+div.bar {
+    /*display: inline-block;*/
+    width: 0px;
+    height: 30px;   /* We'll override this later */
+    background-color: teal;
+    margin-bottom: 2px;
+}
+
+#housecup {
+	width: 400px;
+	height: 276px;
+
+}
+
+.logo-holder {
+	position: absolute;
+	margin-left: 437px;
+	margin-top: 160px;
+}
+
+.graphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.loader {
+	display: none;
+}
+
+.viewport {
+    background-color: rgba(0,0,0,0);
+}
+
+.anim-size-hidden {
+	opacity: 0;
+	transform: rotateY(30deg);
+	transition: opacity 2s, transform 2s;
+}
+.anim-size-large{
+	opacity: 100;
+	transform: translate(-540px, -530px) scale(1, 1) rotateY(0deg);
+	transition: opacity 2s, transform 2s;
+}
+
+.anim-size-small {
+
+	transform: translate(540px, 530px) scale(0.3, 0.3);
+	opacity: 40;
+	transition: opacity 2s, transform 2s;
+
+}
