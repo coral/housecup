@@ -1,4 +1,4 @@
-var logos = ['webhallen.png', 'strafe.png', 'xtrfy.png', 'viagame.png', 'blizzard.png'];
+var logos = ['abios.png', 'dxracer.png', 'webhallen.png', 'viagame.png', 'blizzard.png', 'blizzard2.png'];
 var currentLogo = 0;
 
 $( document ).ready(function() {

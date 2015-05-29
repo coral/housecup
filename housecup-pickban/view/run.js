@@ -1,7 +1,7 @@
 
 var klass = ['druid', 'hunter', 'mage', 'paladin', 'priest', 'rogue', 'shaman', 'warlock', 'warrior'];
 
-var arePlayer=true;
+var arePlayer=false;
 var currentPlayer = 0;
 
 var maxSelected = 0;

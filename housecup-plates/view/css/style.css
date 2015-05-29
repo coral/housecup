@@ -51,13 +51,13 @@ background-color: rgba(0,0,0,0);
     width: 240px;
     height: 40px;
     top: 560px;
-    left: 1285px;
+    left: 1290px;
     transition: left 1s ease-in-out;
 }
 
 .sponsor
 {
-    background-image: url(../img/sponsor-plate.png);
+    sbackground-image: url(../img/sponsor-plate.png);
     width: 254px;
     height: 79px;
     left: 1280px;

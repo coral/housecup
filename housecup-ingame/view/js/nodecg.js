@@ -54,6 +54,12 @@ nodecg.declareSyncedVar({ variableName: 'data',
         $('#pp1 > span.presentationclass').html("<b>Favourite class:</b> " + data.players[0].favorite_class);
         $('#pp1 > span.presentationcountry').html("<b>Country:</b> " + data.players[0].country);
 
+        $('#pp2 > span.presentationage').html("<b>Age:</b> " + data.players[1].age);
+        $('#pp2 > span.presentationteam').html("<b>Team:</b> " + data.players[1].team);
+        if (!data.players[1].team) $('#pp2 > span.presentationteam').html("");
+        $('#pp2 > span.presentationclass').html("<b>Favourite class:</b> " + data.players[1].favorite_class);
+        $('#pp2 > span.presentationcountry').html("<b>Country:</b> " + data.players[1].country);
+
 
     }
 });

@@ -9,6 +9,8 @@ module.exports = function (extensionApi, events) {
 
     io.on('connection', function (socket) {
       socket.on('client-report', function (report) {
+        //return;
+
         log.info("GAMEDATA: ", report);
         switch(report.data.event) {
             case "INIT":
@@ -28,19 +30,19 @@ module.exports = function (extensionApi, events) {
                 break;
             case "HERO":
                 events.emit('HERO', report);
-                break;
-            case "KILL":
-                events.emit('KILL', report);
-                break;
-            case "TURN":
-                events.emit('GAME', report);
-                break;
-            case "WIN":
-                events.emit('GAME', report);
-                break;
-            case "WIN":
-                events.emit('GAME', report);
-                break;
+            //     break;
+            // case "KILL":
+            //     events.emit('KILL', report);
+            //     break;
+            // case "TURN":
+            //     events.emit('GAME', report);
+            //     break;
+            // case "WIN":
+            //     events.emit('GAME', report);
+            //     break;
+            // case "WIN":
+            //     events.emit('GAME', report);
+            //     break;
             default:
                 break;
         }
