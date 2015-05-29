@@ -29,6 +29,11 @@ nodecg.declareSyncedVar({ variableName: 'state',
 });
 
 
+nodecg.listenFor('dropbanners', function function_name(argument) {
+  dropAllBanners();
+});
+
+
 
 nodecg.declareSyncedVar({ variableName: 'turn',
     setter: function(turn) {
@@ -43,15 +48,12 @@ nodecg.declareSyncedVar({ variableName: 'data',
         drawBannerText(0, data.players[0]);
         drawBannerText(1, data.players[1]);
 
-        $('#pp1 > span.prevtournamentname').text(data.players[0].previous_tournaments[0].tournament);
-        $('#pp1 > span.prevtournamentplace').text(ordinal_suffix_of(data.players[0].previous_tournaments[0].placement) + " place");
-        $('#pp1 > span.prevtournamentprice').text("$" + data.players[0].previous_tournaments[0].prize);
-        if (!data.players[0].previous_tournaments[0].prize) $('#pp1 > span.prevtournamentprice').text("");
+        $('#pp1 > span.presentationage').html("<b>Age:</b> " + data.players[0].age);
+        $('#pp1 > span.presentationteam').html("<b>Team:</b> " + data.players[0].team);
+        if (!data.players[0].team) $('#pp1 > span.presentationteam').html("");
+        $('#pp1 > span.presentationclass').html("<b>Favourite class:</b> " + data.players[0].favorite_class);
+        $('#pp1 > span.presentationcountry').html("<b>Country:</b> " + data.players[0].country);
 
-        $('#pp2 > span.prevtournamentname').text(data.players[1].previous_tournaments[0].tournament);
-        $('#pp2 > span.prevtournamentplace').text(ordinal_suffix_of(data.players[1].previous_tournaments[0].placement) + " place");
-        $('#pp2 > span.prevtournamentprice').text("$" + data.players[1].previous_tournaments[0].prize);
-        if (!data.players[1].previous_tournaments[0].prize) $('#pp2 > span.prevtournamentprice').text("");
 
     }
 });

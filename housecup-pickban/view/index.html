@@ -2,40 +2,60 @@
 <head>
 <title>SCRUBLORD</title>
 <link rel="stylesheet" type="text/css" href="render.css">
+<link rel="stylesheet" type="text/css" href="csshake.min.css">
+
+
 <script src="jquery-2.1.3.min.js"></script>
 <script src="lodash.js"></script>
 <script src="run.js"></script>
 </head>
 
 <body>
+
+
+<audio src="matchstrike.mp3"></audio>
+
+<video class="fuse" src="fuse.webm"></video>
+
 <div class="container">
+
+
 
 <div class="p1 nick"></div>
 <div class="p2 nick"></div>
 <div class="cards">
     <div class="deckrender" id="deck1" data-value="1">
-        <div class="druid deckimage"></div>
-        <div class="hunter deckimage"></div>
-        <div class="mage deckimage"></div>
-        <div class="paladin deckimage"></div>
-        <div class="priest deckimage"></div>
-        <div class="rogue deckimage"></div>
-        <div class="shaman deckimage"></div>
-        <div class="warlock deckimage"></div>
-        <div class="warrior deckimage"></div>
+        <div class="druid deckimage"><div class="marker"></div></div>
+        <div class="hunter deckimage"><div class="marker"></div></div>
+        <div class="mage deckimage"><div class="marker"></div></div>
+        <div class="paladin deckimage"><div class="marker"></div></div>
+        <div class="priest deckimage"><div class="marker"></div></div>
+        <div class="rogue deckimage"><div class="marker"></div></div>
+        <div class="shaman deckimage"><div class="marker"></div></div>
+        <div class="warlock deckimage"><div class="marker"></div></div>
+        <div class="warrior deckimage"><div class="marker"></div></div>
     </div>
     <div class="deckrender" id="deck2" data-value="2">
-        <div class="druid deckimage"></div>
-        <div class="hunter deckimage"></div>
-        <div class="mage deckimage"></div>
-        <div class="paladin deckimage"></div>
-        <div class="priest deckimage"></div>
-        <div class="rogue deckimage"></div>
-        <div class="shaman deckimage"></div>
-        <div class="warlock deckimage"></div>
-        <div class="warrior deckimage"></div>
+      <div class="druid deckimage"><div class="marker"></div></div>
+      <div class="hunter deckimage"><div class="marker"></div></div>
+      <div class="mage deckimage"><div class="marker"></div></div>
+      <div class="paladin deckimage"><div class="marker"></div></div>
+      <div class="priest deckimage"><div class="marker"></div></div>
+      <div class="rogue deckimage"><div class="marker"></div></div>
+      <div class="shaman deckimage"><div class="marker"></div></div>
+      <div class="warlock deckimage"><div class="marker"></div></div>
+      <div class="warrior deckimage"><div class="marker"></div></div>
     </div>
     </div>
+</div>
+
+<div class="interface">
+  <h1 class="round"></h1>
+  <h2>You are: <span class="you">-----</span></h2>
+
+  <p>
+  <button id="lockPick">Lock my picks</button>
+</p>
 </div>
 </body>
 

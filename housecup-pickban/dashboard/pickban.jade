@@ -9,5 +9,16 @@ div(style="display: flex;")
                     button#housecup-pickban-reset.btn.btn-xs.btn-danger(type='button' aria-label="Left Align")
                         span.glyphicon.glyphicon-user(aria-hidden="true")  RESET
 
+                .btn-group
+                    button#housecup-pickban-start.btn.btn-xs.btn-success(type='button' aria-label="Left Align")
+                        span.glyphicon.glyphicon-user(aria-hidden="true")  START PHASE
+
+select#Phase.form-control(data-player=2)
+    option(value="1") Phase 1 - Ban 1 opponent deck
+    option(value="2") Phase 2 - Pick 2 decks
+    option(value="3") Phase 3 - Ban 2 opponent decks
+    option(value="4") Phase 4 - Pick 2 decks
+    option(value="5") Phase 5 - Ban 1 opponent deck
+
 .render
 .render2

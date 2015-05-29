@@ -41,17 +41,20 @@ module.exports = function (extensionApi, events) {
     events.on('TAKE', function (message) {
         if(message.data.data != "GAME_005") {
             var tempSplice = nodecg.variables.gamedeck;
-            tempSplice[message.computer].cards.splice(_.findIndex(nodecg.variables.gamedeck[message.computer].cards, { 'name': convertCard(message.data.data).name }),1);
-            nodecg.variables.gamedeck = tempSplice;
+            if (_.findIndex(nodecg.variables.gamedeck[message.computer].cards, { 'name': convertCard(message.data.data).name }) >= 0) {
+              tempSplice[message.computer].cards.splice(_.findIndex(nodecg.variables.gamedeck[message.computer].cards, { 'name': convertCard(message.data.data).name }),1);
+            }
+                      nodecg.variables.gamedeck = tempSplice;
             console.log("Removed " + convertCard(message.data.data).name);
         }
     });
 
     events.on('PUT', function (message) {
         if(message.data.data != "GAME_005") {
-            var tempSplice = nodecg.variables.gamedeck;
-            tempSplice[message.computer].cards.push(convertCard(message.data.data));
-            nodecg.variables.gamedeck = tempSplice;
+          nodecg.variables.gamedeck[message.computer].cards.push(convertCard(message.data.data));
+
+            //var tempSplice = ;
+            nodecg.variables.gamedeck = nodecg.variables.gamedeck;
             //nodecg.variables.gamedeck[message.computer].cards.splice(_.findIndex(nodecg.variables.gamedeck[message.computer], { 'name': convertCard(message.data.data) }),1);
             console.log("Added " + convertCard(message.data.data).name);
         }

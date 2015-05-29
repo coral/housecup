@@ -1,670 +1,818 @@
 [
     {
-        "nick": "Kolento",
-        "name": "Aleksandr Malsh",
-		"team": "Cloud9",
-        "age": 23,
-        "image": "kolento",
-        "country": "UKR",
-        "wins": " ",
-        "favorite_class": "Druid",
-        "most_hated_card": "GVG_110",
-        "previous_tournaments": [
-            {
-                "tournament": "Heroes of Cards 2015 - Cup #1",
-                "placement": 1,
-                "prize": 1250,
-                "date": "2015-02-22"
-            },
-            {
-                "tournament": "Kinguin For Charity - Winter Edition 2015",
-                "placement": 1,
-                "prize": 2500,
-                "date": "2015-01-31"
-            },
-            {
-                "tournament": "DreamHack Hearthstone Championship",
-                "placement": 1,
-                "prize": 10000,
-                "date": "2014-11-29"
-            },
-            {
-                "tournament": "BlizzCon World Championships",
-                "placement": 5,
-                "prize": 7500,
-                "date": "2014-11-08"
-            },
-            {
-                "tournament": "Viagame House Cup #1",
-                "placement": 1,
-                "prize": 8000,
-                "date": "2014-10-12"
-            },
-            {
-                "tournament": "Numericable M-House Cup 4",
-                "placement": 2,
-                "prize": 2047,
-                "date": "2014-06-29"
-            }
-        ]
-
-    },
-    {
-        "nick": "coral",
-        "name": "Jonas Bengtson",
-        "team": "Cloud9",
-        "wins": " ",
-        "image": "coral",
-        "age": 23,
-        "country": "UKR",
-        "favorite_class": "Druid",
-        "most_hated_card": "GVG_110",
-        "previous_tournaments": [
-            {
-                "tournament": "Heroes of Cards 2015 - Cup #1",
-                "placement": 1,
-                "prize": 1250,
-                "date": "2015-02-22"
-            },
-            {
-                "tournament": "Kinguin For Charity - Winter Edition 2015",
-                "placement": 1,
-                "prize": 2500,
-                "date": "2015-01-31"
-            },
-            {
-                "tournament": "DreamHack Hearthstone Championship",
-                "placement": 1,
-                "prize": 10000,
-                "date": "2014-11-29"
-            },
-            {
-                "tournament": "BlizzCon World Championships",
-                "placement": 5,
-                "prize": 7500,
-                "date": "2014-11-08"
-            },
-            {
-                "tournament": "Viagame House Cup #1",
-                "placement": 1,
-                "prize": 8000,
-                "date": "2014-10-12"
-            },
-            {
-                "tournament": "Numericable M-House Cup 4",
-                "placement": 2,
-                "prize": 2047,
-                "date": "2014-06-29"
-            }
-        ]
-
-    },
-    {
-        "nick": "Amaz",
+        "__v": 0,
+        "_id": "55606a5e02d00bc7200a29cf",
         "name": "Jason Chan",
-		"team": "Archon",
-        "wins": " ",
-        "image": "amaz",
-        "age": 23,
-        "country": "HKG",
-        "favorite_class": "Priest",
-        "most_hated_card": "EX1_128",
-        "previous_tournaments": [
-            {
-                "tournament": "ESL HLS Katowice",
-                "placement": 2,
-                "prize": 6000,
-                "date": "2015-03-15"
-            },
-            {
-                "tournament": "Viagame House Cup #1",
-                "placement": 2,
-                "prize": 4000,
-                "date": "2014-10-12"
-            },
-            {
-                "tournament": "HearthStats League Invitational",
-                "placement": 3,
-                "prize": 500,
-                "date": "2014-09-20"
-            },
-            {
-                "tournament": "IEM Season IX Shenzhen",
-                "placement": 1,
-                "prize": 4000,
-                "date": "2014-07-18"
-            },
-            {
-                "tournament": "Numericable M-House Cup 4",
-                "placement": 1,
-                "prize": 4094,
-                "date": "2014-06-29"
-            },
-            {
-                "tournament": "DreamHack Viagame Hearthstone Championship",
-                "placement": 2,
-                "prize": 5000,
-                "date": "2014-06-16"
-            },
-            {
-                "tournament": "DreamHack Bucharest 2014",
-                "placement": 3,
-                "prize": 1000,
-                "date": "2014-04-27"
-            }
-        ]
-
-    },
-	{
-        "nick": "TidesofTime",
-        "name": "Andrew Biessener",
-		"team": "Archon",
-        "wins": " ",
-        "image": "tidesoftime",
-        "age": 23,
-        "country": "USA",
-        "favorite_class": "Shaman",
-        "most_hated_card": "GVG_004",
-        "previous_tournaments": [
-            {
-                "tournament": "The Pinnacle",
-                "placement": 3,
-                "prize": 500,
-                "date": "2014-12-29"
-            },
-			{
-                "tournament": "Viagame House Cup #1",
-                "placement": 3,
-                "prize": 2000,
-                "date": "2014-10-12"
-            },
-			{
-                "tournament": "World Cyber Arena 2014",
-                "placement": 9,
-                "prize": 1625,
-                "date": "2014-10-05"
-            },
-			{
-                "tournament": "World E-sport Championships 2014",
-                "placement": 1,
-                "prize": 32500,
-                "date": "2014-09-07"
-            },
-			{
-                "tournament": "WellPlayed Cup: Hearthstone",
-                "placement": 1,
-                "prize": 1500,
-                "date": "2014-06-29"
-            }
-        ]
-
-    },
-	{
-        "nick": "Forsen",
-        "name": "Sebastian Fors",
-		"team": "FORSENBOYS",
-        "image": "forsen",
-        "wins": " ",
+        "nick": "Amaz",
         "age": 24,
-        "country": "SWE",
-        "favorite_class": "Mage",
-        "most_hated_card": "NAX6_01H",
+        "team": "Archon",
+        "image": "amaz",
+        "country": "Hong Kong",
+        "wins": "",
+        "favorite_class": "Priest",
+        "most_hated_card": "Preparation",
         "previous_tournaments": [
             {
-                "tournament": "Battle of the Best Invitational",
-                "placement": 2,
-                "prize": 600,
-                "date": "2014-10-26"
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             },
-			{
-                "tournament": "Viagame House Cup #1",
-                "placement": 3,
-                "prize": 2000,
-                "date": "2014-10-12"
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             },
-			{
-                "tournament": "Worst tournament ever",
-                "placement": 3,
-                "prize": 300,
-                "date": "2014-08-11"
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             }
         ]
-
     },
-	{
+    {
+        "nick": "Crane333",
+        "name": "Simon Raunholst",
+        "_id": "55606a5e02d00bc7200a29d3",
+        "__v": 0,
+        "age": 26,
+        "team": "H2k G2A",
+        "image": "crane",
+        "country": "Denmark",
+        "wins": "",
+        "favorite_class": "Rogue",
+        "most_hated_card": "Dr. Boom",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
         "nick": "Firebat",
         "name": "James Kostesich",
-		"team": "Archon",
+        "_id": "55606a5e02d00bc7200a29ca",
+        "__v": 0,
+        "age": 19,
+        "team": "Archon",
         "image": "firebat",
-        "wins": " ",
-        "age": 18,
         "country": "USA",
-        "favorite_class": "Rouge",
-        "most_hated_card": "GVG_096",
+        "wins": "",
+        "favorite_class": "Rogue",
+        "most_hated_card": "Knife Juggler",
         "previous_tournaments": [
             {
-                "tournament": "Battle of the Best Invitational 1 2015",
-                "placement": 2,
-                "prize": 600,
-                "date": "2015-02-02"
-            },
-			{
-                "tournament": "Kinguin For Charity - Winter Edition 2015",
-                "placement": 2,
-                "prize": 1500,
-                "date": "2015-01-31"
-            },
-			{
-                "tournament": "The Pinnacle",
-                "placement": 1,
-                "prize": 2500,
-                "date": "2014-12-29"
-            },
-			{
-                "tournament": "DreamHack Hearthstone Championship",
-                "placement": 5,
-                "prize": 1250,
-                "date": "2014-11-29"
-            },
-			{
-                "tournament": "BlizzCon World Championships",
-                "placement": 1,
-                "prize": 100000,
-                "date": "2014-11-08"
-            },
-			{
-                "tournament": "HearthStats League Invitational",
-                "placement": 3,
-                "prize": 500,
-                "date": "2014-09-20"
-            }
-        ]
-
-    },
-	{
-        "nick": "Tiddler",
-        "name": "Xieyu Wang",
-		"team": "ViCi Gaming",
-        "image": "tiddler",
-        "wins": " ",
-        "age": 31,
-        "country": "CHN",
-        "favorite_class": "TBA",
-        "most_hated_card": "0",
-        "previous_tournaments": [
-            {
-                "tournament": "Gold Series - Grand Finals",
-                "placement": 3,
-                "prize": 3260,
-                "date": "2015-01-25"
-            },
-			{
-                "tournament": "BlizzCon World Championships",
-                "placement": 2,
-                "prize": 50000,
-                "date": "2014-11-08"
-            },
-			{
-                "tournament": "World Cyber Arena 2014",
-                "placement": 2,
-                "prize": 48750,
-                "date": "2014-10-05"
-            },
-			{
-                "tournament": "CN vs KR Masters Season 2",
-                "placement": 5,
-                "prize": 1500,
-                "date": "2014-09-30"
-            }
-        ]
-
-    },
-	{
-        "nick": "ThijsNL",
-        "name": "Thijs Molendijk",
-		"team": "Nihilium",
-        "image": "thijsnl",
-        "age": 20,
-        "wins": " ",
-        "country": "NLD",
-        "favorite_class": "Druid",
-        "most_hated_card": "0",
-        "previous_tournaments": [
-            {
-                "tournament": "Battle of the Best Invitational 1 2015",
-                "placement": 3,
-                "prize": 400,
-                "date": "2015-02-02"
-            },
-			{
-                "tournament": "Heroes of Cards 2014 - Cup #4",
-                "placement": 3,
-                "prize": 500,
-                "date": "2014-12-17"
-            },
-			{
-                "tournament": "G2A Hearthstone Masters",
-                "placement": 2,
-                "prize": 750,
-                "date": "2014-12-04"
-            },
-			{
-                "tournament": "DreamHack Hearthstone Championship",
-                "placement": 2,
-                "prize": 5000,
-                "date": "2014-11-29"
-            },
-			{
-                "tournament": "DreamHack Masters Bucharest 2014",
-                "placement": 1,
-                "prize": 4000,
-                "date": "2014-11-02"
-            },
-			{
-                "tournament": "DreamHack Viagame Hearthstone Championship",
-                "placement": 5,
-                "prize": 1250,
-                "date": "2014-06-16"
-            }
-        ]
-
-    },
-	{
-        "nick": "Savjz",
-        "name": "Janne Mikkonen",
-		"team": "Team Liquid",
-        "image": "savjz",
-        "wins": " ",
-        "age": 27,
-        "country": "FIN",
-        "favorite_class": "Rouge",
-        "most_hated_card": "GVG_110",
-        "previous_tournaments": [
-            {
-                "tournament": "ESL Hearthstone Legendary Series - Season 1 Finals",
-                "placement": 5,
-                "prize": 1000,
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
                 "date": "2015-02-22"
             },
-			{
-                "tournament": "Assembly Winter 2015",
-                "placement": 3,
-                "prize": 591,
-                "date": "2015-01-30"
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             },
-			{
-                "tournament": "Inven Invitational",
-                "placement": 1,
-                "prize": 643,
-                "date": "2015-01-21"
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             },
-			{
-                "tournament": "SeatStory Cup II",
-                "placement": 1,
-                "prize": 10000,
-                "date": "2014-10-19"
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             },
-			{
-                "tournament": "World Cyber Arena 2014",
-                "placement": 9,
-                "prize": 1625,
-                "date": "2014-10-05"
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             },
-			{
-                "tournament": "VGVN Naxxramas Release Tournament 3",
-                "placement": 1,
-                "prize": 1000,
-                "date": "2014-09-15"
-            },
-			{
-                "tournament": "IeSF 2014 WC Finland Qualifier",
-                "placement": 1,
-                "prize": 474,
-                "date": "2014-07-31"
-            },
-			{
-                "tournament": "OGN Invitational",
-                "placement": 1,
-                "prize": 10000,
-                "date": "2014-05-06"
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             }
         ]
-
     },
-	{
+    {
+        "__v": 0,
+        "_id": "55606a5e02d00bc7200a29d2",
+        "name": "Louie Westbrook",
+        "nick": "Froggy",
+        "age": 15,
+        "team": "",
+        "image": "froggy",
+        "country": "Denmark",
+        "wins": "",
+        "favorite_class": "Warlock",
+        "most_hated_card": "Crackle",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Handsomeguy",
+        "name": "Kang Ilmook",
+        "_id": "55606a5e02d00bc7200a29d5",
+        "__v": 0,
+        "age": 24,
+        "team": "Sunbi",
+        "image": "handsomeguy",
+        "country": "South Korea",
+        "wins": "",
+        "favorite_class": "Druid",
+        "most_hated_card": "Dr. Boom",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Hoej",
+        "name": "Frederik Nielsen",
+        "_id": "55606a5e02d00bc7200a29c8",
+        "__v": 0,
+        "age": 22,
+        "team": "",
+        "image": "hoej",
+        "country": "Denmark",
+        "wins": "",
+        "favorite_class": "Warrior",
+        "most_hated_card": "Sprint",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "__v": 0,
+        "_id": "55606a5e02d00bc7200a29d0",
+        "name": "Gu Luo",
+        "nick": "Immortal",
+        "age": 30,
+        "team": "",
+        "image": "immortal",
+        "country": "China",
+        "wins": "",
+        "favorite_class": "Druid",
+        "most_hated_card": "Mad Scientist",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Kalàxz",
+        "name": "Maxime Thierry",
+        "_id": "55606a5e02d00bc7200a29d4",
+        "__v": 0,
+        "age": 22,
+        "team": "Punchline ESC",
+        "image": "kalaxz",
+        "country": "France",
+        "wins": "",
+        "favorite_class": "Priest",
+        "most_hated_card": "Innervate",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Lifecoach",
+        "name": "Adrian Koy",
+        "_id": "55606a5e02d00bc7200a29cc",
+        "__v": 0,
+        "age": 33,
+        "team": "Nihilium",
+        "image": "lifecoach",
+        "country": "Germany",
+        "wins": "",
+        "favorite_class": "Handlock",
+        "most_hated_card": "Nozdormu",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "RDU",
+        "name": "Dima Radu",
+        "_id": "55606a5e02d00bc7200a29d1",
+        "__v": 0,
+        "age": 18,
+        "team": "Nihilium",
+        "image": "rdu",
+        "country": "Romania",
+        "wins": "",
+        "favorite_class": "Rogue",
+        "most_hated_card": "Ragnaros",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
         "nick": "Orange",
         "name": "Jon Westberg",
-		"team": "Archon",
+        "_id": "55606a5e02d00bc7200a29cd",
+        "__v": 0,
+        "age": 20,
+        "team": "Archon",
         "image": "orange",
-        "wins": " ",
-        "age": 20,
-        "country": "SWE",
-        "favorite_class": "Rouge",
-        "most_hated_card": "NAX15_01H",
+        "country": "Sweden",
+        "wins": "",
+        "favorite_class": "Rogue",
+        "most_hated_card": "Skill Command",
         "previous_tournaments": [
             {
-                "tournament": "ESL HLS Katowice",
-                "placement": 1,
-                "prize": 13000,
-                "date": "2015-03-15"
-            },
-			{
-                "tournament": "The Pinnacle 2",
-                "placement": 4,
-                "prize": 250,
-                "date": "2015-01-31"
-            },
-			{
-                "tournament": "Numericable M-House Cup 5",
-                "placement": 5,
-                "prize": 125,
-                "date": "2014-12-21"
-            },
-			{
-                "tournament": "Numericable M-House Cup 5: Qualifier #2",
-                "placement": 1,
-                "prize": 188,
-                "date": "2014-12-03"
-            }
-        ]
-
-    },
-	{
-        "nick": "Inderen",
-        "name": "Erik Kristensen",
-		"team": "H2K-Gaming",
-        "image": "inderen",
-        "wins": " ",
-        "age": 25,
-        "country": "DEN",
-        "favorite_class": "All",
-        "most_hated_card": "FP1_004",
-        "previous_tournaments": [
-            {
-                "tournament": "ESL HLS Katowice",
-                "placement": 3,
-                "prize": 3000,
-                "date": "2015-03-15"
-            },
-			{
-                "tournament": "Gfinity Hearthstone Premium Cup",
-                "placement": 1,
-                "prize": 200,
-                "date": "2015-02-03"
-            }
-        ]
-
-    },
-	{
-        "nick": "PEDROCLA",
-        "name": "Pedro Clavel Diaz",
-		"team": "WSystem e-Sports Club",
-        "image": "pedrocla",
-        "wins": " ",
-        "age": 21,
-        "country": "ESP",
-        "favorite_class": "Mage",
-        "most_hated_card": "EX1_539",
-        "previous_tournaments": [
-            {
-                "tournament": "DreamHack Valencia Hearthstone tournament",
-                "placement": 5,
+                "tournament": "",
+                "placement": 0,
                 "prize": 0,
-                "date": "2014-07-17"
-            }
-        ]
-
-    },
-	{
-        "nick": "BaDi",
-        "name": "Dimitris Pappelis",
-		"team": "REG",
-        "image": "badi",
-        "age": 20,
-        "country": "GRC",
-        "wins": " ",
-        "favorite_class": "Mage",
-        "most_hated_card": "EX1_339",
-        "previous_tournaments": [
-            {
-                "tournament": "ESL China vs Europe 2015 Qualifier #4",
-                "placement": 5,
-                "prize": 0,
-                "date": "2015-02-05"
+                "date": "2015-02-22"
             },
-			{
-                "tournament": " ESL China vs Europe 2015 Qualifier #4",
-                "placement": 1,
-                "prize": 0,
-                "date": "2015-01-11"
-            }
-        ]
-
-    },
-	{
-        "nick": "TheBombEx",
-        "name": "Álvaro Calvo Benéitez",
-		"team": "España!",
-        "image": "thebombex",
-        "wins": " ",
-        "age": 24,
-        "country": "ESP",
-        "favorite_class": "Mage",
-        "most_hated_card": "NEW1_008",
-        "previous_tournaments": [
             {
-                "tournament": "OGS Hearthstone #9",
-                "placement": 1,
-                "prize": 100,
-                "date": "20114-11-10"
-            }
-        ]
-
-    },
-	{
-        "nick": "Hoej",
-        "name": "Frederik Høj Nielsen",
-		"team": "No team :(",
-        "image": "hoej",
-        "wins": " ",
-        "age": 22,
-        "country": "DEN",
-        "favorite_class": "Warrier",
-        "most_hated_card": "CS2_077",
-        "previous_tournaments": [
-            {
-                "tournament": "The BRUTAL Viagame House Cup #2 Qualifier 2",
-                "placement": 1,
+                "tournament": "",
+                "placement": 0,
                 "prize": 0,
-                "date": "2015-03-07"
-            }
-        ]
-
-    },
-	{
-        "nick": "GUUKBOII",
-        "name": "Kobe Van Schepdael",
-		"team": "RUZ3 Gaming.",
-        "wins": " ",
-        "image": "guukboii",
-        "age": 20,
-        "country": "BEL",
-        "favorite_class": "Druid",
-        "most_hated_card": "GVG_110",
-        "previous_tournaments": [
-			{
-                "tournament": "GameForce Pro Championship",
-                "placement": 1,
-                "prize": 500,
-                "date": "2014-10-05"
+                "date": "2015-02-22"
             },
-			{
-                "tournament": "First Look 2014 Hearthstone Championship",
-                "placement": 1,
-                "prize": 500,
-                "date": "2014-09-24"
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             }
         ]
-
     },
-	{
-        "nick": "Roger",
+    {
+        "nick": "REWIND",
+        "name": "Jose Alastuey Aisa",
+        "_id": "55606a5e02d00bc7200a29d6",
+        "__v": 0,
+        "age": 32,
+        "team": "",
+        "image": "rewind",
+        "country": "Spain",
+        "wins": "",
+        "favorite_class": "Warrior",
+        "most_hated_card": "Black Knight",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Roger (羅杰)",
         "name": "Sheng Yuan Luo",
-		"team": "Wayi Spider",
-        "wins": " ",
+        "_id": "55606a5e02d00bc7200a29c9",
+        "__v": 0,
+        "age": 23,
+        "team": "Wayi Spiders",
         "image": "roger",
-        "age": 23,
-        "country": "SGP",
-        "favorite_class": "Rouge",
-        "most_hated_card": "GVG_110",
+        "country": "Taiwan",
+        "wins": "",
+        "favorite_class": "Rogue",
+        "most_hated_card": "Dr. Boom",
         "previous_tournaments": [
             {
-                "tournament": "The BRUTAL Viagame House Cup #2 Qualifier 2",
-                "placement": 1,
+                "tournament": "",
+                "placement": 0,
                 "prize": 0,
-                "date": "2015-03-07"
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             }
         ]
-
     },
     {
-        "nick": "Seltzer",
-        "name": "Rachel Quirico",
-        "team": "FROG BOLLS",
-        "wins": " ",
-        "image": "seltzer",
-        "age": 23,
-        "country": "SGP",
-        "favorite_class": "Rouge",
-        "most_hated_card": "GVG_110",
+        "nick": "StanCifka",
+        "name": "Stanislav Cifka",
+        "_id": "55606a5e02d00bc7200a29d7",
+        "__v": 0,
+        "age": 27,
+        "team": "",
+        "image": "stancifika",
+        "country": "Czech Republic",
+        "wins": "",
+        "favorite_class": "Warlock",
+        "most_hated_card": "Shade of Naxxramas",
         "previous_tournaments": [
             {
-                "tournament": "The BRUTAL Viagame House Cup #2 Qualifier 2",
-                "placement": 1,
+                "tournament": "",
+                "placement": 0,
                 "prize": 0,
-                "date": "2015-03-07"
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             }
         ]
-
     },
     {
-        "nick": "Frodan",
-        "name": "Dan Chou",
-        "team": "R E K T B O Y S",
-        "wins": " ",
-        "image": "frodan",
-        "age": 23,
-        "country": "SGP",
-        "favorite_class": "Rouge",
-        "most_hated_card": "GVG_110",
+        "nick": "StrifeCro",
+        "name": "Cong Shu",
+        "_id": "55606a5e02d00bc7200a29cb",
+        "__v": 0,
+        "age": 26,
+        "team": "Cloud9",
+        "image": "strifecro",
+        "country": "USA",
+        "wins": "",
+        "favorite_class": "Mage",
+        "most_hated_card": "Ice Block",
         "previous_tournaments": [
             {
-                "tournament": "The BRUTAL Viagame House Cup #2 Qualifier 2",
-                "placement": 1,
+                "tournament": "",
+                "placement": 0,
                 "prize": 0,
-                "date": "2015-03-07"
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
             }
         ]
-
+    },
+    {
+        "nick": "Thijs",
+        "name": "Thijs Molendijk",
+        "_id": "55606a5e02d00bc7200a29ce",
+        "__v": 0,
+        "age": 21,
+        "team": "Nihilium",
+        "image": "thijs",
+        "country": "Netherlands",
+        "wins": "",
+        "favorite_class": "Mage",
+        "most_hated_card": "Huffer Companion",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
     }
 ]

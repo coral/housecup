@@ -24,7 +24,7 @@
 
 body {
 
-  background-image: url(img/bg_4.png);
+  background-image: url(img/bg_5.png);
   background-repeat: no-repeat;
   font-family: "Geogtq-Lg";
   overflow: hidden;
@@ -226,40 +226,44 @@ div#pp2 {
 .pp span {
   position: absolute;
   left: 30px;
-  color: #57270c;
+  color: #fff;
+  text-shadow: 0px 0px 10px #000000;
   font-size: 20pt;
-
+  opacity: 0.5;
 }
 
-.pp span.prevtournamenthead {
-  font-family: "Geogtq-Bd";
+.pp span.presentationage {
+  font-family: "Geogtq-Md";
 
   top: 270px;
 
 }
 
-.pp span.prevtournamentname {
+.pp span.presentationteam {
   top: 300px;
-  width: 330px;
 
   font-family: "Geogtq-Md";
 
 
 }
 
-.pp span.prevtournamentplace {
+.pp span.presentationcountry {
+  top: 330px;
+  font-family: "Geogtq-Md";
+
+
+}
+
+.pp span.presentationclass {
   top: 370px;
-  width: 350px;
+  font-family: "Geogtq-Md";
+
+
+}
+
+.pp b {
+  font-weight: normal;
   font-family: "Geogtq-Bd";
-
-
-}
-
-.pp span.prevtournamentprice {
-  top: 370px;
-  left: 170px;
-  font-family: "Geogtq-Md";
-
 
 }
 

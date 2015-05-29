@@ -1,0 +1,818 @@
+[
+    {
+        "__v": 0,
+        "_id": "55606a5e02d00bc7200a29cf",
+        "name": "Jason Chan",
+        "nick": "Amaz",
+        "age": 0,
+        "team": "",
+        "image": "amaz",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Crane",
+        "name": "Simon Raunholst",
+        "_id": "55606a5e02d00bc7200a29d3",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "crane",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Firebat",
+        "name": "James Kostesich",
+        "_id": "55606a5e02d00bc7200a29ca",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "firebat",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "__v": 0,
+        "_id": "55606a5e02d00bc7200a29d2",
+        "name": "Louie Westbrook",
+        "nick": "Froggy",
+        "age": 23,
+        "team": "Team 2000",
+        "image": "froggy",
+        "country": "Denmark",
+        "wins": "",
+        "favorite_class": "Warlock",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Handsomeguy",
+        "name": "Kang Ilmook",
+        "_id": "55606a5e02d00bc7200a29d5",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "handsomeguy",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Hoej",
+        "name": "Frederik Nielsen",
+        "_id": "55606a5e02d00bc7200a29c8",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "hoej",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "__v": 0,
+        "_id": "55606a5e02d00bc7200a29d0",
+        "name": "Feng Xiao",
+        "nick": "IceFox",
+        "age": 0,
+        "team": "",
+        "image": "icefox",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Kalàxz",
+        "name": "Maxime Thierry",
+        "_id": "55606a5e02d00bc7200a29d4",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "kalaxz",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Lifecoach",
+        "name": "Adrian Koy",
+        "_id": "55606a5e02d00bc7200a29cc",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "lifecoach",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "NoTomorrow (明天不见)",
+        "name": "Yu Jian",
+        "_id": "55606a5e02d00bc7200a29d1",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "notomorrow",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Orange",
+        "name": "Jon Westberg",
+        "_id": "55606a5e02d00bc7200a29cd",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "orange",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "REWIND",
+        "name": "Jose Alastuey Aisa",
+        "_id": "55606a5e02d00bc7200a29d6",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "rewind",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Roger (羅杰)",
+        "name": "Sheng Yuan Luo",
+        "_id": "55606a5e02d00bc7200a29c9",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "roger",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "StanCifka",
+        "name": "Stanislav Cifka",
+        "_id": "55606a5e02d00bc7200a29d7",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "stancifika",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "StrifeCro",
+        "name": "Cong Shu",
+        "_id": "55606a5e02d00bc7200a29cb",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "strifecro",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    },
+    {
+        "nick": "Thijs",
+        "name": "Thijs Molendijk",
+        "_id": "55606a5e02d00bc7200a29ce",
+        "__v": 0,
+        "age": 0,
+        "team": "",
+        "image": "thijs",
+        "country": "",
+        "wins": "",
+        "favorite_class": "",
+        "most_hated_card": "",
+        "previous_tournaments": [
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            },
+            {
+                "tournament": "",
+                "placement": 0,
+                "prize": 0,
+                "date": "2015-02-22"
+            }
+        ]
+    }
+]

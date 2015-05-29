@@ -30,6 +30,9 @@ var render2 = $('.render2');
         initialVal: classes,
         setter: function(newVal) {
             console.log(newVal);
+            for (var i in newVal) {
+              render.children('.'+i).val(newVal[i]);
+            }
         }
     });
 
@@ -37,6 +40,9 @@ var render2 = $('.render2');
         initialVal: classes,
         setter: function(newVal) {
             console.log(newVal);
+            for (var i in newVal) {
+              render2.children('.'+i).val(newVal[i]);
+            }
         }
     });
 
@@ -46,14 +52,43 @@ var render2 = $('.render2');
         }
     });
 
-    $("#housecup-pickban-show").click(function () {
-        nodecg.sendMessage("classToggle","active");
+
+    nodecg.declareSyncedVar({ variableName: 'Phase',
+        setter: function(newVal) {
+            console.log(newVal);
+            $('#Phase').val(newVal);
+        }
     });
 
-   $("#housecup-pickban-reset").click(function () {
-        nodecg.variables.classes1 = orig;
-        nodecg.variables.classes2 = orig;
+    nodecg.declareSyncedVar({ variableName: 'showPickban',
+        initialVal: false,
+
+        setter: function(newVal) {
+            console.log(newVal);
+            if (newVal) {
+              $('#housecup-pickban-show').removeClass('btn-default').addClass('btn-success');
+            } else {
+              $('#housecup-pickban-show').removeClass('btn-success').addClass('btn-default');
+
+            }
+        }
     });
+
+    $("#housecup-pickban-show").click(function () {
+      nodecg.variables.showPickban = !nodecg.variables.showPickban
+    });
+
+    $("#housecup-pickban-reset").click(function () {
+         nodecg.variables.classes1 = orig;
+         nodecg.variables.classes2 = orig;
+         nodecg.variables.Phase = 1;
+     });
+
+     $("#housecup-pickban-start").click(function () {
+       nodecg.sendMessage('StartPhase');
+      });
+
+
 
     var klass = ['druid', 'hunter', 'mage', 'paladin', 'priest', 'rogue', 'shaman', 'warlock', 'warrior'];
 

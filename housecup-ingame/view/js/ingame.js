@@ -309,18 +309,26 @@ function drawBannerText(banner, texts) {
 
 	bannerTexts[banner].canvas.font='bold 33px "Geogtq-Bd"';
 	bannerTexts[banner].canvas.textAlign = 'center';
-	bannerTexts[banner].canvas.fillStyle = '#57270c';
+	bannerTexts[banner].canvas.fillStyle = '#000';
 	bannerTexts[banner].canvas.fillText(texts.nick.toUpperCase(),150,470);
 
 	bannerTexts[banner].canvas.font='27px "Geogtq-Md"';
 	bannerTexts[banner].canvas.textAlign = 'center';
-	bannerTexts[banner].canvas.fillStyle = '#57270c';
+	bannerTexts[banner].canvas.fillStyle = '#000';
 	bannerTexts[banner].canvas.fillText(texts.name.toUpperCase(),150,500);
 
-	bannerTexts[banner].canvas.font='50px "Geogtq-Bd"';
+	bannerTexts[banner].canvas.font='80px "Geogtq-Bd"';
 	bannerTexts[banner].canvas.textAlign = 'center';
-	bannerTexts[banner].canvas.fillStyle = '#57270c';
-	bannerTexts[banner].canvas.fillText(texts.wins,150,670);
+	bannerTexts[banner].canvas.fillStyle = '#000';
+	bannerTexts[banner].canvas.fillText(texts.wins,150,640);
+
+	bannerTexts[banner].canvas.lineWidth = 2;
+
+	bannerTexts[banner].canvas.miterLimit = 2;
+	bannerTexts[banner].canvas.lineJoin = 'circle';
+
+	bannerTexts[banner].canvas.strokeStyle = '#fff';
+	bannerTexts[banner].canvas.strokeText(texts.wins,150,640);
 
 	bannerTexts[banner].texture.needsUpdate = true;
 

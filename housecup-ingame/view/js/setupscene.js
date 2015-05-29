@@ -68,13 +68,14 @@ function setupUserElements() {
 
 	var bannerTexture = THREE.ImageUtils.loadTexture( 'img/banner_hole.png' );
 	var bannerTextureMask = THREE.ImageUtils.loadTexture( 'img/banner_hole_mask.png' );
-	var bannerTextureBump = THREE.ImageUtils.loadTexture( 'img/banner_bump.jpg' );
-	var viagameTexture = THREE.ImageUtils.loadTexture( 'img/banderoll-housecup.png' );
+	var bannerTextureBump = THREE.ImageUtils.loadTexture( 'img/banner_bump.png' );
+	var viagameTexture = THREE.ImageUtils.loadTexture( 'img/banner_spons.png' );
+	var viagameTextureBump = THREE.ImageUtils.loadTexture( 'img/banner_spons_bump.png' );
 
 
 	//bumpMap: bannerTextureBump,
-	var bannerMaterial = new THREE.MeshPhongMaterial( { ambient: 0xffffff, color: 0xffffff, specular: 0x030303, emissive: 0x111111, shiness: 10, bumpScale:0.2, map: bannerTexture, bumpMap: bannerTextureBump, side: THREE.DoubleSide, transparent: true} );
-	var viagameMaterial = new THREE.MeshPhongMaterial( { ambient: 0xffffff, color: 0xffffff, specular: 0x030303, emissive: 0x111111, shiness: 10, bumpScale:0.2, map: viagameTexture, bumpMap: bannerTextureBump, side: THREE.DoubleSide, transparent: true} );
+	var bannerMaterial = new THREE.MeshPhongMaterial( { ambient: 0xffffff, color: 0xffffff, specular: 0x030303, emissive: 0x111111, shiness: 10, bumpScale:1, map: bannerTexture, bumpMap: bannerTextureBump, side: THREE.DoubleSide, transparent: true} );
+	var viagameMaterial = new THREE.MeshPhongMaterial( { ambient: 0xffffff, color: 0xffffff, specular: 0x030303, emissive: 0x111111, shiness: 10, bumpScale:1, map: viagameTexture, bumpMap: viagameTextureBump, side: THREE.DoubleSide, transparent: true} );
 
 	videoMaterials[3].alphaMap = bannerTextureMask;
 	videoMaterials[4].alphaMap = bannerTextureMask;
@@ -123,10 +124,19 @@ function setupUserElements() {
 
 
 	var pole = new THREE.Object3D();
-	var brassTexture = THREE.ImageUtils.loadTexture( 'img/brass.jpg' );
-	var brassBump = THREE.ImageUtils.loadTexture( 'img/brass_bump.jpg' );
+	var brassTexture = THREE.ImageUtils.loadTexture( 'img/wood1.jpg' );
+	var brassTextureBump = THREE.ImageUtils.loadTexture( 'img/wood1_bump.jpg' );
 
-	var brassMaterial = new THREE.MeshPhongMaterial( { map:brassTexture, specularMap:brassBump, bumpMap:brassBump , ambient: 0xffffff, color: 0xffffff, specular: 0xffcc00, shininess: 5} );
+		brassTexture.wrapS = THREE.RepeatWrapping;
+		brassTexture.wrapT = THREE.RepeatWrapping;
+		brassTexture.repeat.set( 1, 10 );
+
+
+		brassTextureBump.wrapS = THREE.RepeatWrapping;
+		brassTextureBump.wrapT = THREE.RepeatWrapping;
+		brassTextureBump.repeat.set( 1, 3 );
+
+	var brassMaterial = new THREE.MeshPhongMaterial( { map:brassTexture, bumpMap: brassTextureBump, bumpScale:4, ambient: 0xffffff, color: 0xffffff, shininess: 0} );
 
 	var cylinder = new THREE.Mesh( new THREE.CylinderGeometry( 5, 5, 450, 32 ), brassMaterial);
 	var knob = new THREE.Mesh(new THREE.SphereGeometry( 10, 32, 32 ), brassMaterial);

@@ -10,6 +10,7 @@ var ppw_button = $('#housecup-ingame-ppw');
 var mulligan_button = $('#housecup-ingame-mulligan');
 var ingame_button = $('#housecup-ingame-ingame');
 var decklist_button = $('#housecup-ingame-decklist');
+var drop_button = $('#housecup-banners-drop');
 
 
 var active1 = $('#housecup-ingame-active1');
@@ -55,6 +56,10 @@ $(deck2_button).click(function() {
     nodecg.sendMessage("showdeck", 2);
 });
 
+$(drop_button).click(function function_name() {
+  nodecg.sendMessage('dropbanners');
+});
+
 
 
 $(active1).click(function() {
@@ -81,10 +86,11 @@ $(".players").change(function(changer) {
 
 $("#wins1").change(function(changer) {
     var amount = $("#wins1 option:selected").val();
-    var string = "";
-    for (i = 0; i < amount; i++) {
-        string = string + "∫";
-    }
+    // var string = "";
+    // for (i = 0; i < amount; i++) {
+    //     string = string + "∫";
+    // }
+    var string = amount;
 
     var temp =  nodecg.variables.data;
     console.log(temp);
@@ -94,10 +100,11 @@ $("#wins1").change(function(changer) {
 
 $("#wins2").change(function(changer) {
     var amount = $("#wins2 option:selected").val();
-    var string = "";
-    for (i = 0; i < amount; i++) {
-        string = string + "∫";
-    }
+    // var string = "";
+    // for (i = 0; i < amount; i++) {
+    //     string = string + "∫";
+    // }
+    var string = amount;
 
     var temp =  nodecg.variables.data;
     console.log(temp);
@@ -332,4 +339,3 @@ nodecg.declareSyncedVar({ variableName: 'data',
         console.log(data);
     }
 });
-

@@ -23,23 +23,23 @@ module.exports = function (extensionApi, events) {
         if(message.data.event == "TURN" && message.data.data == true)
         {
             nodecg.variables.turn = message.computer;
-            if(message.computer == 1)
-            {
-                emitter.emit('/auxin/03/mix/on', 1);
-                emitter.emit('/auxin/04/mix/on', 1);
-
-                emitter.emit('/auxin/05/mix/on', 0);
-                emitter.emit('/auxin/06/mix/on', 0);
-            }
-
-            if(message.computer == 2)
-            {
-                emitter.emit('/auxin/03/mix/on', 0);
-                emitter.emit('/auxin/04/mix/on', 0);
-
-                emitter.emit('/auxin/05/mix/on', 1);
-                emitter.emit('/auxin/06/mix/on', 1);
-            }
+            // if(message.computer == 1)
+            // {
+            //     emitter.emit('/auxin/03/mix/on', 1);
+            //     emitter.emit('/auxin/04/mix/on', 1);
+            //
+            //     emitter.emit('/auxin/05/mix/on', 0);
+            //     emitter.emit('/auxin/06/mix/on', 0);
+            // }
+            //
+            // if(message.computer == 2)
+            // {
+            //     emitter.emit('/auxin/03/mix/on', 0);
+            //     emitter.emit('/auxin/04/mix/on', 0);
+            //
+            //     emitter.emit('/auxin/05/mix/on', 1);
+            //     emitter.emit('/auxin/06/mix/on', 1);
+            // }
         }
         /*
         if(message.data.event == "TURN" && message.data.data == false)

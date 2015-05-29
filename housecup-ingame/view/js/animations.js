@@ -1,5 +1,13 @@
 var currentstate = "";
 
+function dropAllBanners() {
+  playerBanners[0].drop();
+  playerBanners[1].drop();
+  playerBanners[2].drop();
+  playerBanners[3].drop();
+
+}
+
 function setState(s) {
   if (s != currentstate) {
 
@@ -11,10 +19,10 @@ function setState(s) {
       setMulligan(0, "off");
       setMulligan(1, "off");
       document.body.className = "";
-      playerBanners[0].drop();
-      playerBanners[1].drop();
-      playerBanners[2].drop();
-      playerBanners[3].drop();
+      // playerBanners[0].drop();
+      // playerBanners[1].drop();
+      // playerBanners[2].drop();
+      // playerBanners[3].drop();
 
       doLight(lights[0], {angle:0.6, exponent: 70, intensity: 0}, {x:500, y:500, z:900}, 2000, 0);
       doLight(lights[1], {angle:0.6, exponent: 70, intensity: 0}, {x:720, y:700, z:900}, 2000, 0);

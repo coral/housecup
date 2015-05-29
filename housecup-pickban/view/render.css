@@ -3,6 +3,8 @@ body {
     height: 720px;
     background-color: rgba(0,0,0,0);
     overflow: hidden;
+    font-family: Geo;
+
 }
 
 .cards {
@@ -25,14 +27,21 @@ body {
     background-size: 77px 110px;
 }
 
+.selected {
+    background-image: url(img/hero/selected.png);
+    width: 77px;
+    height: 110px;
+    background-size: 77px 110px;
+}
+
 .p1 {
-    top: 125px;
-    left: 90px;
+    top: 120px;
+    left: 110px;
 }
 
 .p2 {
-    top: 215px;
-    left: 90px;
+    top: 210px;
+    left: 110px;
 }
 
 
@@ -41,6 +50,8 @@ body {
     font-family: Geo;
     color: #FFFFFF;
     position: relative;
+    text-shadow: 0px 0px 5px #000;
+
 }
 
 @font-face {
@@ -57,12 +68,24 @@ body {
     left: 100px;
     background-image: url(img/bg2.png);
     background-color: rgba(0,0,0,0.0);
-    transition: top 1s ease-in-out;
+    transition: top 1s ease-in-out, transform 1s;
 }
 
 body.active div.container {
     top: 396px;
     transition: top 1s ease-in-out;
+}
+
+.interface {
+  opacity: 0;
+  transition: opacity 1s;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+body.player .interface {
+  opacity: 1;
 }
 
 .deckimage {
@@ -73,11 +96,19 @@ body.active div.container {
     background-size: 77px 110px;
     display: block;
     float: left;
+    transition: transform 0.5s;
+
+}
+
+.deckimage:hover {
+  transform: scale(1.2);
 }
 
 .deckrender {
     display: block;
      clear: left;
+     position: relative;
+     top: -10px;
 }
 
 
@@ -121,3 +152,14 @@ body.active div.container {
     background-image: url(img/hero/Warrior.png);
 }
 
+video.fuse {
+  position: absolute;
+  width: 1280px;
+  height: 512px;
+  top: 170px;
+  left: 0;
+}
+
+button {
+  font-size: 30px;
+}
