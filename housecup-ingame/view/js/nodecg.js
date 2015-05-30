@@ -106,13 +106,15 @@ nodecg.declareSyncedVar({ variableName: 'classes2',
   bundleName: 'housecup-pickban',
   setter: function(newVal) {
     $('#herolist2 .hero').removeClass('visible');
+    $('#herolist2 .hero .cross').removeClass('active');
 
     for (var i in newVal) {
       console.log(i);
       if (newVal[i] == "notrekt") $('#herolist2 .hero.' + i).addClass('visible');
-      if (newVal[i] == "lost") $('#herolist2 .hero.' + i).addClass('lost');
-
-
+      if (newVal[i] == "lost") {
+        $('#herolist2 .hero.' + i).addClass('lost');
+        $('#herolist2 .hero.' + i + " .cross").addClass('active');
+      }
     }
    }
 });
