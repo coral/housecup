@@ -97,12 +97,14 @@ var render2 = $('.render2');
                           '<option value="on" selected>On</option>' +
                           '<option value="rekt">Ban</option>' +
                           '<option value="notrekt">Pick</option>' +
+                          '<option value="lost">Lost</option>' +
                         '</select>'
         );
         $(render2).append('<select id="'+value+'" class="'+value+' pickbans">' +
                           '<option value="on">On</option>' +
                           '<option value="rekt">Ban</option>' +
                           '<option value="notrekt">Pick</option>' +
+                          '<option value="lost">Lost</option>' +
                         '</select>'
         );
 

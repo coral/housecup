@@ -487,7 +487,14 @@ body.decks #decklist2 .cardelement.show {
 
 }
 
-body.ingame .herolist {
+body.ingame .herolist
+{
+  top: 5px;
+
+}
+
+
+body.decks .herolist { 
   top: 5px;
 
 }
@@ -533,10 +540,25 @@ body.ingame .herolist {
 }
 
 .herolist .hero.selected {
-  border-color: #bd4343;
+  border-color: #55a730;
   top: 5px;
 }
 
 .herolist .hero.visible {
   display: block;
+}
+
+.herolist .hero.lost {
+  display: block;
+  border-color: #bd4343;
+}
+
+.herolist .cross {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.herolist .cross.active {
+  background-image: url(img/redcross.png);
 }

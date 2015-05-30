@@ -89,14 +89,18 @@ nodecg.declareSyncedVar({ variableName: 'classes1',
   bundleName: 'housecup-pickban',
   setter: function(newVal) {
     $('#herolist1 .hero').removeClass('visible');
+    $('#herolist1 .hero .cross').removeClass('active');
 
     for (var i in newVal) {
       console.log(i);
       if (newVal[i] == "notrekt") $('#herolist1 .hero.' + i).addClass('visible');
-
+      if (newVal[i] == "lost") {
+        $('#herolist1 .hero.' + i).addClass('lost');
+        $('#herolist1 .hero.' + i + " .cross").addClass('active');
+      }
     }
    }
-}); 
+});
 
 nodecg.declareSyncedVar({ variableName: 'classes2',
   bundleName: 'housecup-pickban',
@@ -106,6 +110,8 @@ nodecg.declareSyncedVar({ variableName: 'classes2',
     for (var i in newVal) {
       console.log(i);
       if (newVal[i] == "notrekt") $('#herolist2 .hero.' + i).addClass('visible');
+      if (newVal[i] == "lost") $('#herolist2 .hero.' + i).addClass('lost');
+
 
     }
    }

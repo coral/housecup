@@ -51,7 +51,7 @@ var tsRef;
 
 function rekt(timez) {
 
-        console.log("TIME: " + timez);
+        //console.log("TIME: " + timez);
  tsRef = countdown(new Date(), timez);
  console.log(tsRef);
  tsRef = Math.round(tsRef.value/1000);
@@ -85,7 +85,7 @@ function updateTime(){
 		var realTime = "PARTYTIME";
 		nodecg.variables.animate = false;
 	}
-	console.log(currentHr + " " + currentMin + " " +  currentSec);
+	//console.log(currentHr + " " + currentMin + " " +  currentSec);
 
 	if(currentMin == 0 && currentSec == 0 && currentHr == "0")
 	{
