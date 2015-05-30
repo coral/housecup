@@ -67,7 +67,7 @@ div.bar {
 
 .anim-size-small {
 
-	-webkit-transform: translate(540px, 530px) scale(0.3, 0.3);
+	-webkit-transform: translate(540px, 390px) scale(0.3, 0.3);
 	opacity: 40;
 	-webkit-transition: opacity 2s, -webkit-transform 2s;
 
