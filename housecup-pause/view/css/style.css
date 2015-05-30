@@ -55,18 +55,18 @@ div.bar {
 
 .anim-size-hidden {
 	opacity: 0;
-	transform: rotateY(30deg);
-	transition: opacity 2s, transform 2s;
+	-webkit-transform: rotateY(30deg);
+	transition: opacity 2s, -webkit-transform 2s;
 }
 .anim-size-large{
 	opacity: 100;
-	transform: translate(-540px, -530px) scale(1, 1) rotateY(0deg);
-	transition: opacity 2s, transform 2s;
+	-webkit-transform: translate(-540px, -530px) scale(1, 1) rotateY(0deg);
+	transition: opacity 2s, -webkit-transform 2s;
 }
 
 .anim-size-small {
 
-	transform: translate(540px, 530px) scale(0.3, 0.3);
+	-webkit-transform: translate(540px, 530px) scale(0.3, 0.3);
 	opacity: 40;
 	transition: opacity 2s, transform 2s;
 
