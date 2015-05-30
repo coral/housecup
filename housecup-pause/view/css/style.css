@@ -61,13 +61,13 @@ div.bar {
 .anim-size-large{
 	opacity: 100;
 	-webkit-transform: translate(-540px, -530px) scale(1, 1) rotateY(0deg);
-	transition: opacity 2s, -webkit-transform 2s;
+	-webkit-transition: opacity 2s, -webkit-transform 2s;
 }
 
 .anim-size-small {
 
 	-webkit-transform: translate(540px, 530px) scale(0.3, 0.3);
 	opacity: 40;
-	transition: opacity 2s, transform 2s;
+	-webkit-transition: opacity 2s, transform 2s;
 
 }
