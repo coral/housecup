@@ -28,6 +28,7 @@ nodecg.declareSyncedVar({
 });
 
 $(".classToggle").click(function () {
+    $("#save").click();
     nodecg.sendMessage("classToggle",$(this).data("class"));
     console.log("OK: " + $(this).data("class"));
 

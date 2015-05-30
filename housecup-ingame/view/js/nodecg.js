@@ -9,11 +9,25 @@ nodecg.declareSyncedVar({ variableName: 'state',
       if (state.state == "showdeck1" || state.state == "showdeck2") {
         deck.view = "fan";
         deck.updateView();
+        if (nodecg.variables.data) {
+          if (state.state == "showdeck1") {
+            $("#deckname > .name").text(nodecg.variables.data.players[0].nick);
+          } else {
+            $("#deckname > .name").text(nodecg.variables.data.players[1].nick);
+          }
+          $("#deckname").addClass("show");
+
+        }
         state.state = "off";
+
+
+
 
         new TWEEN.Tween(lights[5]).to({intensity: 0.6}, 1000).start();
       } else {
         deck.view = "hidden";
+        $("#deckname").removeClass("show");
+
         deck.updateView();
         new TWEEN.Tween(lights[5]).to({intensity: 0}, 1000).start();
 
@@ -26,6 +40,13 @@ nodecg.declareSyncedVar({ variableName: 'state',
 
 
     }
+});
+
+nodecg.listenFor('changeClass', function (data) {
+  console.log(data);
+  var elem = $("#herolist" + data.slot);
+
+  elem.children().removeClass('selected').filter("." + data.selectedClass.toLowerCase()).addClass('selected');
 });
 
 
@@ -64,6 +85,35 @@ nodecg.declareSyncedVar({ variableName: 'data',
     }
 });
 
+nodecg.declareSyncedVar({ variableName: 'classes1',
+  bundleName: 'housecup-pickban',
+  setter: function(newVal) {
+    $('#herolist1 .hero').removeClass('visible');
+
+    for (var i in newVal) {
+      console.log(i);
+      if (newVal[i] == "notrekt") $('#herolist1 .hero.' + i).addClass('visible');
+
+    }
+   }
+}); 
+
+nodecg.declareSyncedVar({ variableName: 'classes2',
+  bundleName: 'housecup-pickban',
+  setter: function(newVal) {
+    $('#herolist2 .hero').removeClass('visible');
+
+    for (var i in newVal) {
+      console.log(i);
+      if (newVal[i] == "notrekt") $('#herolist2 .hero.' + i).addClass('visible');
+
+    }
+   }
+});
+
+
+
+
 function ordinal_suffix_of(i) {
     var j = i % 10,
         k = i % 100;
@@ -83,6 +133,7 @@ nodecg.declareSyncedVar({ variableName: 'showdeck',
     setter: function(showdeck) {
         console.log(showdeck);
         deck.updateDeck(showdeck);
+        $("#deckname > .hero").text(showdeck.deckClass);
     }
 });
 

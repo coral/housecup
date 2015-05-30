@@ -449,3 +449,92 @@ body.decks #decklist1 .cardelement.show {
 body.decks #decklist2 .cardelement.show {
   right: 0px;
 }
+
+
+
+
+
+#deckname {
+  position: absolute;
+  width: 1280px;
+  text-align: center;
+  transform-origin: 50% 0%;
+  transform: scale(0.5);
+  filter: blur(0);
+  font-size: 100px;
+  color: white;
+  top: 600px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#deckname.show {
+  opacity: 1;
+}
+
+.herolist {
+  position: absolute;
+  top: -50px;
+  transition: top 2s;
+}
+
+#herolist1 {
+  left: 5px;
+
+}
+#herolist2 {
+  left: 1095px;
+
+}
+
+body.ingame .herolist {
+  top: 5px;
+
+}
+
+.herolist .hero {
+  width: 30px;
+  float: left;
+  height: 30px;
+  background-position: -10px -14px;
+  background-size: 50px 80px;
+  border: 3px solid black;
+  display: none;
+  float: left;
+}
+
+.herolist .hero.warrior {
+  background-image: url(img/heroes/Warrior.png);
+}
+.herolist .hero.shaman {
+  background-image: url(img/heroes/Shaman.png);
+}
+.herolist .hero.rogue {
+  background-image: url(img/heroes/Rogue.png);
+}
+.herolist .hero.paladin {
+  background-image: url(img/heroes/Paladin.png);
+}
+.herolist .hero.hunter {
+  background-image: url(img/heroes/Hunter.png);
+}
+.herolist .hero.druid {
+  background-image: url(img/heroes/Druid.png);
+}
+.herolist .hero.warlock {
+  background-image: url(img/heroes/Warlock.png);
+}
+.herolist .hero.mage {
+  background-image: url(img/heroes/Mage.png);
+}
+.herolist .hero.priest {
+  background-image: url(img/heroes/Priest.png);
+}
+
+.herolist .hero.selected {
+  border-color: #2f2;
+}
+
+.herolist .hero.visible {
+  display: block;
+}
