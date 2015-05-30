@@ -14,10 +14,9 @@ var newtime;
 nodecg.declareSyncedVar({
     name: 'size',
     setter: function(newVal) {
+      console.log(newVal);
 
-      $(".viewport").removeClass('anim-size-large');
-      $(".viewport").removeClass('anim-size-hidden');
-      $(".viewport").removeClass('anim-size-small');
+      $(".viewport").removeClass('anim-size-large').removeClass('anim-size-hidden').removeClass('anim-size-small');
 
       $(".viewport").addClass("anim-size-" + newVal);
     }
