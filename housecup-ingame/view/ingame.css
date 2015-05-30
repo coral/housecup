@@ -501,6 +501,7 @@ body.ingame .herolist {
   border: 3px solid black;
   display: none;
   float: left;
+  position: relative;
 }
 
 .herolist .hero.warrior {
@@ -532,7 +533,8 @@ body.ingame .herolist {
 }
 
 .herolist .hero.selected {
-  border-color: #2f2;
+  border-color: #bd4343;
+  top: 5px;
 }
 
 .herolist .hero.visible {
