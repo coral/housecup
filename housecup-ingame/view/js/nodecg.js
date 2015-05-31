@@ -88,7 +88,7 @@ nodecg.declareSyncedVar({ variableName: 'data',
 nodecg.declareSyncedVar({ variableName: 'classes1',
   bundleName: 'housecup-pickban',
   setter: function(newVal) {
-    $('#herolist1 .hero').removeClass('visible');
+    $('#herolist1 .hero').removeClass('visible lost');
     $('#herolist1 .hero .cross').removeClass('active');
 
     for (var i in newVal) {
@@ -105,7 +105,7 @@ nodecg.declareSyncedVar({ variableName: 'classes1',
 nodecg.declareSyncedVar({ variableName: 'classes2',
   bundleName: 'housecup-pickban',
   setter: function(newVal) {
-    $('#herolist2 .hero').removeClass('visible');
+    $('#herolist2 .hero').removeClass('visible lost');
     $('#herolist2 .hero .cross').removeClass('active');
 
     for (var i in newVal) {
